@@ -31,24 +31,30 @@ Zur Verbindung zwischen Adapterplatte und Kardangelenk eignet sich zwei 4 mm Sch
 
 Dann ein 4 mm Loch in die Platte bohren. Die Schraube durch die Platte stecken, sodass der Sechskantkopf in die Aussparung pass. Dann auf der entgegengesetzten Seit mit einer Mutter sichern.
 
-Zur Verbindung mit dem Akkuschrauber di zweite Schraube auch etwas abfeilen und mit der Madenschraube sichern. Der Sechskanntkopf kann damm im Bohrfutter des Akkuschraubers eingespannt werden. Zur besseren Verbindung habe ich noch zwei zusätzliche Muttern bis zum Kopf augeschraubt unf gekonntert.
+Zur Verbindung mit dem Akkuschrauber die zweite Schraube auch etwas abfeilen und mit der Madenschraube sichern. Der Sechskanntkopf kann damm im Bohrfutter des Akkuschraubers eingespannt werden. Zur besseren Verbindung habe ich noch zwei zusätzliche Muttern bis zum Kopf augeschraubt unf gekonntert.
+
+Zur Verbindung der Adapterplatte mit dem Handrad muss zuerst das Handrad abgeschraubt werden. Dann die Adapterplatte auf der oberen Seite des Handrads platzieren und mit dem Ring auf der unteren Seite fixieren. In die Zapfen 
 
 ## Montage des Akkuschraubers
 
-Zur einfachen Montage des Akkuschraubers verwende ich sogenennte [Thermohalter](https://alufensterbaenke.de/thermohalter) für Fensterbänke. 
+Zur einfachen Montage des Akkuschraubers verwende ich sogenannte [Thermohalter](https://alufensterbaenke.de/thermohalter) für Fensterbänke. 
 
 ![Halter](https://alufensterbaenke.de/media/catalog/product/cache/2ad09310492482b8dd76867023a48036/0/1/01_thermohalter_anwendung_mg.jpg)
 
+Der Vorteil dieser Lösung ist der variable Abstand zur Wand, der einfach duerch kürzen der Alu-Profile auf die benötigte Länge erfolgt.
 
+Für die Verbindung zwisch Wand und Akkuschrauber werden einfach zwei dieser Halter so ineinander geschoben, dass sich viereckiger Kasten ergibt.
+Der Abstand kann durch weniger oder mehr ineinanderschieben verändert werden. Ist der richtige Abstand gefunden, können die Profile mit eine Schraube fixiert werden. Eine Seite reicht dabei.
 
+Für die Montage bleiben die vorbereiteten Profilhälften jedoch noch getrennt. 
 
+Auf der Seite zur Wand werden zwei Löcher in die Alu-Profile gebohrt. Der Durchmesser richtet sich dabei nach den verwendeten Schrauben zur Befestigung in der Wand. 
 
+Beim Profil zum Akkuschrauber wird der Akkuschrauber mit zwei Kabelbindern mit dem Profil befestigt. Das Bild oben zeigt wie es aussehen soll.
 
+Danch können die Profile ineinandergesteckt werden und die Bohrstellen mit einem Stift markiert werden. Dann die Löcher mit einer Bohrmaschine bohren (6 mm sollten  reichen). Dann die Dübel einsetzen und das wandseitige Profil festschrauben. Eventuell die Profile dazu wieder trennen.
 
-
-
-
-
+Jetzt kann alles fertig montiert werden. Dazu das Schrauberseitige Profil aufstecken und im richtigen Abstand einsetig fixieren. Dazu ein Loch durch beide Prifleile bohren und mit einer kleinen Schraube/Mutter fixieren. 
 
 
 
