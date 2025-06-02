@@ -15,14 +15,19 @@ Ein Wasserschaden nach einem Rohrbruch oder einer anderen Leckage ist immer eine
 
 - SD-Karte in Raspberry einlegen und starten
 - Einloggen (SSH)
-´´´´
+
+´´´
 sudo apt update
 sudo apt upgrade
 
 sudo raspi-config - Filesystem expand unf Logging aus.
-´´´´
+´´´
+
 ioBroker mit : 
-	´´´ curl -sLf https://iobroker.net/install.sh | bash - ´´´´
+´´´
+curl -sLf https://iobroker.net/install.sh | bash - 
+´´´
+
 installieren.
 
 Open ioBroker: http://IP-Adresse:8081
