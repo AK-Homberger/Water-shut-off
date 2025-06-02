@@ -17,6 +17,10 @@ Ein Wasserschaden nach einem Rohrbruch oder einer anderen Leckage ist immer eine
 - Steuerung über Script in IoBroker auf einem Raspberry. 
 - ZigBee-Integration in ioBroker über ZigBee2MQTT.
 
+# Harware
+
+![Platte1](https://github.com/AK-Homberger/Wasserabschalter/blob/main/SCAD/Absperrplatte2.stl)
+
 # Installation ioBroker
 
 - Rapberry Imager als Administrator starten
