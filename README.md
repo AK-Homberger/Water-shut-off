@@ -61,9 +61,14 @@ git clone --depth 1 https://github.com/Koenkk/zigbee2mqtt.git /opt/zigbee2mqtt
 cd /opt/zigbee2mqtt
 pnpm i --frozen-lockfile
 ```
-Testen mit: pnpm start
+Testen mit: 
+```
+pnpm start
+```
 
 Start als Service:
+
+Editor starten und Datei "zigbee2mqtt.service" mit folgendem Inhalt erzeugen.
 ```
 sudo nano /etc/systemd/system/zigbee2mqtt.service
 ```
@@ -88,6 +93,16 @@ User=pi
 [Install]
 WantedBy=multi-user.target
 ```
+Wegen eines Fehlers bei meiner Raspberry Version (Bookworm) musste ich die Zeilen 
+```
+#Type=notify
+```
+und
+```
+#WatchdogSec=10s
+```
+auskommentieren. Ansonsten funktionierte der Start über Systemctl nicht richtig (Abstürze). Der Fehler ist auch bei anderen Usern schon aufgetreten. 
+
 ```
 sudo systemctl start zigbee2mqtt
 
