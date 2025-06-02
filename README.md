@@ -31,11 +31,13 @@ Die Adapterplatte und der Befestigungsring sind im Verzeichnis SCAD als OpenSCAD
 
 Zur Verbindung zwischen Kardangelenk aund Adapterplatt/Bohrmaschine eignen sich zwei 4 mm Schrauben (ca 20 mm Länge) eine mit Rundkopf und eine mit Sechskanntkopf und entsprechende Muttern. Zur Verbindung mit dem Kardagelenk muss die Spitze des 4 mm Gewindes etwas abgefeilt werden damit die Schraube im Kardangelenk mit der Madenschraube fixiert werden kann.
 
-Dann ein 4 mm Loch in die Platte bohren. Die Schraube mit Rundkopf durch die Platte stecken sodass der Rundkopf in die Aussparung passt. Dann auf der entgegengesetzten Seit mit einer Mutter sichern. Eventuell mit einer zweiten Kontermutter sichern.
+Dann ein 4 mm Loch durch das zentrum der Platte bohren. Ein etwas grösseres Sackloch zur Aufnahme des Schrubenkopfes in die Platte bohren. Aber nicht zu tief!
+
+Die Schraube mit Rundkopf durch die Platte stecken sodass der Rundkopf in die Aussparung passt. Dann auf der entgegengesetzten Seite mit einer Mutter sichern. Eventuell mit einer zweiten Kontermutter sichern.
 
 Zur Verbindung mit dem Akkuschrauber die zweite Schraube auch etwas abfeilen und mit der Madenschraube sichern. Der Sechskanntkopf kann damm im Bohrfutter des Akkuschraubers eingespannt werden. Zur besseren Verbindung habe ich noch zwei zusätzliche Muttern bis zum Kopf augeschraubt unf gekonntert.
 
-Zur Verbindung der Adapterplatte mit dem Handrad muss zuerst das Handrad abgeschraubt werden. Dann die Adapterplatte auf der oberen Seite des Handrads platzieren und mit dem Ring auf der unteren Seite fixieren. In die drei Zapfen der Adapterplatt müssen zuvor noch kleine Löcher (2 mm) gebohrt werden. Der Ring wird mit drei kleinen Schrauben (3 mm) festgeschraubt damit die Adapterplatte fest mit dem Handrad vrbunden ist.
+Zur Verbindung der Adapterplatte mit dem Handrad muss zuerst das Handrad abgeschraubt werden. Dann die Adapterplatte auf der oberen Seite des Handrads platzieren und mit dem Ring auf der unteren Seite fixieren. In die drei Zapfen der Adapterplatt müssen zuvor noch kleine Löcher (2 mm) gebohrt werden. Der Ring wird mit drei kleinen Holz- oder Spax-Schrauben (3 mm) festgeschraubt damit die Adapterplatte fest mit dem Handrad vrbunden ist. Das Handrad mit der Adapterplatte und dem Kardangelenk kann nun auf den Vierkannt des Ventils aufgesteckt werden. Eine Verschraubung des Handrads mit dem Vierkannt ist nicht nötig, da der Abstand durch die spätere Montage des Akkuschrauber fixiert ist.
 
 ## Montage des Akkuschraubers
 
