@@ -76,7 +76,7 @@ pnpm i --frozen-lockfile
 Datei "configuration.yaml" anpassen:
 
 ```
-nano cd /opt/zigbee2mqtt/data/configuration.yaml
+nano /opt/zigbee2mqtt/data/configuration.yaml
 ```
 ```
 homeassistant:
