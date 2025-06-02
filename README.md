@@ -99,7 +99,7 @@ Als Betriebssystem für ioBroker empfehele ich die OSLite-Version für den Raspb
 - Rapberry Imager als Administrator starten (zumindest unter Windows 11; ansonsten sperrt der Virenschutz das Kopieren einiger Komponenten)
 - 64 Bit OSLite auswählen
 - Hostname und Passwort festlegen
-- SD-Karte schreiben
+- SD-Karte auswählen schreiben
 
 - SD-Karte in Raspberry einlegen und starten
 - Einloggen. Entweder lokal mit Tastatur und Bildschirm oder per SSH. IP-Adresse über den Router herausfinden! Als SSH-Client empfehle ich [Putty](https://www.putty.org/)
