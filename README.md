@@ -35,6 +35,12 @@ Zur Verbindung mit dem Akkuschrauber di zweite Schraube auch etwas abfeilen und 
 
 ## Montage des Akkuschraubers
 
+Zur einfachen Montage des Akkuschraubers verwende ich sogenennte [Thermohalter](https://alufensterbaenke.de/thermohalter) für Fensterbänke. 
+
+![Halter](https://alufensterbaenke.de/media/catalog/product/cache/2ad09310492482b8dd76867023a48036/0/1/01_thermohalter_anwendung_mg.jpg)
+
+
+
 
 
 
