@@ -33,7 +33,7 @@ Dann ein 4 mm Loch in die Platte bohren. Die Schraube durch die Platte stecken, 
 
 Zur Verbindung mit dem Akkuschrauber die zweite Schraube auch etwas abfeilen und mit der Madenschraube sichern. Der Sechskanntkopf kann damm im Bohrfutter des Akkuschraubers eingespannt werden. Zur besseren Verbindung habe ich noch zwei zusätzliche Muttern bis zum Kopf augeschraubt unf gekonntert.
 
-Zur Verbindung der Adapterplatte mit dem Handrad muss zuerst das Handrad abgeschraubt werden. Dann die Adapterplatte auf der oberen Seite des Handrads platzieren und mit dem Ring auf der unteren Seite fixieren. In die Zapfen 
+Zur Verbindung der Adapterplatte mit dem Handrad muss zuerst das Handrad abgeschraubt werden. Dann die Adapterplatte auf der oberen Seite des Handrads platzieren und mit dem Ring auf der unteren Seite fixieren. In die drei Zapfen der Adapterplatt müssen zuvor noch kleine Löcher (2 mm) gebohrt werden. Der Ring wir mit drei kleinen Schrauben (3 mm) festgeschraubt damit die Adapterplatte fest mit dem Handrad vrbunden ist.
 
 ## Montage des Akkuschraubers
 
@@ -52,9 +52,23 @@ Auf der Seite zur Wand werden zwei Löcher in die Alu-Profile gebohrt. Der Durch
 
 Beim Profil zum Akkuschrauber wird der Akkuschrauber mit zwei Kabelbindern mit dem Profil befestigt. Das Bild oben zeigt wie es aussehen soll.
 
-Danch können die Profile ineinandergesteckt werden und die Bohrstellen mit einem Stift markiert werden. Dann die Löcher mit einer Bohrmaschine bohren (6 mm sollten  reichen). Dann die Dübel einsetzen und das wandseitige Profil festschrauben. Eventuell die Profile dazu wieder trennen.
+Das Bohrfutter des Akkuschrauber wird aufgedreht, sodass dir Sechkannt-Schraubenkopf von der Kardangelenk-Verlängerung locker hineinpasst.
 
-Jetzt kann alles fertig montiert werden. Dazu das Schrauberseitige Profil aufstecken und im richtigen Abstand einsetig fixieren. Dazu ein Loch durch beide Prifleile bohren und mit einer kleinen Schraube/Mutter fixieren. 
+Danach können die Profile ineinandergesteckt werden. Als Nächstes den Akkuschrauber positionieren und das Bohrfutter soweit festschrauben, dass eine sichere Verbinndung gegeben ist. Noch einmal die Achsausrichtung prüfen und eventuel korrigieren. Jetzt können die Bohrstellen mit einem Stift markiert werden.
+
+Dann die Löcher mit einer Bohrmaschine bohren (6 mm sollten  reichen). Dann die Dübel einsetzen und das wandseitige Profil festschrauben. 
+Eventuell die Profile dazu wieder trennen.
+
+Jetzt kann alles fertig montiert werden. Dazu das Schrauberseitige Profil aufstecken und im richtigen Abstand einsetig fixieren. Dazu ein Loch durch beide Profilteile bohren und mit einer kleinen Schraube/Mutter fixieren. 
+
+Jetzt sollte alles fertig moniert sein und im Prnzip so wie auf dem Bild oben aussehen.
+
+## Prüfung der Funktion und Einstellung des Drehmoments
+
+
+
+
+
 
 
 
