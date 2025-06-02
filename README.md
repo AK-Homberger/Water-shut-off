@@ -18,12 +18,12 @@ Ein Wasserschaden nach einem Rohrbruch oder einer anderen Leckage ist immer eine
 - ZigBee-Integration in ioBroker über ZigBee2MQTT.
 
 # Hardware
-Für die mechanische Abschaltung des Hauwassers verwende eine einfache 12 Volt Handbohrmashine mit Drehmomenteinstellung. Ich hatte erst über einen Getriebemotor nachgedacht. Aber die notendige Dremomentkupplung habe ich nirgends günstig gefunden. Bei Akku-Bohrmschinen ist sie dagegen Standard. Bei der Liste der benötigten Teile ist ein Link zu Amazon. Die einfache Bohrmasine für unter 20 Euro reicht hier aus. 
+Für die mechanische Abschaltung des Hauwassers verwende eine einfache 12 Volt Handbohrmashine mit Drehmomenteinstellung. Ich hatte erst über einen Getriebemotor nachgedacht. Aber die notendige Drehmomentkupplung habe ich nirgends günstig gefunden. Bei Akku-Bohrmschinen ist sie dagegen Standard. Bei der Liste der benötigten Teile ist ein Link zu Amazon dabei. Die einfache Bohrmaschine für unter 20 Euro reicht hier aus. 
 
-Die Bohrmaschine wird über ein Kardangelenk und deiner Adapterplatt mit dem Handrad des Wasserventils verbunden. Das Kardangelenk soll leicht Achsvershiebungen ausgleichen. Wahrscheinlich würde es auch ohne dieses Gelenk funktionieren.
+Die Bohrmaschine wird über ein Kardangelenk und einer Adapterplatte mit dem Handrad des Wasserventils verbunden. Das Kardangelenk soll leichte Achsverschiebungen ausgleichen. Wahrscheinlich würde es auch ohne dieses Gelenk funktionieren.
 
-## Wichtg!
-Die Achaltung funktioniert nur mit "Nichtsteigenden" Ventilen. Bei "steigenden" Ventilen drcht sich die Welle des Handrads in das Ventil hinein. Dadurch würde sich der Abstand zur Bohrmaschibe stetig vergrössern bis keine Verbindung mehr gegeben ist. Daher vorher prüfen, ob ein "nichtstegendes" Ventil verbaut ist. Die Ventile kann auch wechseln. Der lokale Installatur kann hier bei Bedarf helfen. 
+## Wichtg! Nichtsteigende Spindel
+Die Abschaltung funktioniert nur bei Ventilen mit "nichtsteigender" Spindel. Bei Ventilen mit "steigender" Spindel dreht sich die Welle des Handrads in das Ventil hinein. Dadurch würde sich der Abstand zur Bohrmaschine stetig vergrössern, bis keine Verbindung mehr gegeben ist. Daher vorher prüfen, ob ein Ventil mit "nichtstegender" Spindel verbaut ist. Die [Ventile/Oberteile](https://www.ew-haustechnik.com/JS-Fettkammer-Oberteil-KFR-Typ-1821-mit-nichtsteigender-Spindel-fuer-KFR-und-Freistromventile) kann auch wechseln. Der lokale Installatur kann hier bei Bedarf helfen. 
 
 
 
