@@ -31,7 +31,7 @@ Die Adapterplatte und der Befestigungsring sind im Verzeichnis SCAD als OpenSCAD
 
 Zur Verbindung zwischen Kardangelenk aund Adapterplatt/Bohrmaschine eignen sich zwei 4 mm Schrauben (ca 20 mm Länge) eine mit Rundkopf und eine mit Sechskanntkopf und entsprechende Muttern. Zur Verbindung mit dem Kardagelenk muss die Spitze des 4 mm Gewindes etwas abgefeilt werden damit die Schraube im Kardangelenk mit der Madenschraube fixiert werden kann.
 
-Dann ein 4 mm Loch durch das zentrum der Platte bohren. Ein etwas grösseres Sackloch zur Aufnahme des Schrubenkopfes in die Platte bohren. Aber nicht zu tief!
+Dann ein 4 mm Loch durch das Zentrum der Platte bohren. Ein etwas grösseres Sackloch zur Aufnahme des Schrubenkopfes in die Platte bohren. Aber nicht zu tief!
 
 Die Schraube mit Rundkopf durch die Platte stecken sodass der Rundkopf in die Aussparung passt. Dann auf der entgegengesetzten Seite mit einer Mutter sichern. Eventuell mit einer zweiten Kontermutter sichern.
 
