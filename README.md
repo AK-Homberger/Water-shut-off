@@ -84,20 +84,25 @@ Zum Öffnen des Ventils einfach das Bohrfutter soweit aufdrehen, dass sich das H
 
 Die Steuerung des Wasserabschalters erfolgt mit einem Raspberry und zwei Software-Komponenten. Einmal dem Smarthome-System [ioBroker](https://www.iobroker.net/) und zum Zweiten die Software [Zigbee2Mqtt](https://github.com/Koenkk/zigbee2mqtt). ioBroker übernimmt dabei die Automatisierung per Script und Zigbee2mqtt die Anbindung der Ikea Zigbee-Komponenten Tertakt (Schalte) und Bdring (Leckage Detektor).
 
-Viele Make leser haben eventuell schon eine Smarthom-Lösung auf einem Raspberry im Einsatz. Dann erübrigt sich die Beschreibung zur Installation des Betriebssystems. Trotzdem beschreib ich hier kurz die vollständige Installation aller drei Komponenten. Rapsberry OS, ioBroker und Zigbee2mqtt.
+Viele Make Leser haben eventuell schon eine Smarthome-Lösung auf einem Raspberry im Einsatz. Dann erübrigt sich die Beschreibung zur Installation des Betriebssystems. Trotzdem beschreibe ich hier kurz die vollständige Installation aller drei Komponenten. Rapsberry OS, ioBroker und Zigbee2mqtt.
 
-Übrigens: Falls Nutzer breits bas Smarthome-System Home Assistant nutzen, funktioniert die Steuerung über die Ikea ZigBee-Komponenten ebenfalls. Auch für Home Assitant ist ein entprechender Adapter für Zigbee2Mqtt verfügbar. Hier wird jedoch die Realisierung mit ioBroker beschrieben.
+Übrigens: Falls Nutzer breits bas Smarthome-System Home Assistant nutzen, funktioniert die Steuerung über die Ikea-ZigBee-Komponenten ebenfalls. Auch für Home Assitant ist ein entprechender Adapter für Zigbee2Mqtt verfügbar. Hier wird jedoch die Realisierung mit ioBroker beschrieben.
+
+Für die verlässliche Funktion des Systems ist mindestens eine Raspberry 4 mit 2 GB RAM erforderlich. Ein komplette Bundle ist zum Beispiel [hier](https://www.reichelt.de/de/de/shop/produkt/das_reichelt_raspberry_pi_4_b_2_gb_all-in-bundle-263082?PROVID=2788&gQT=2) verfügbar.
 
 
-# Installation ioBroker
 
-- Rapberry Imager als Administrator starten
+# Installation Raspberry OS und ioBroker
+Zur Vorbereitung der Installation benötigen wir zuerst des "Raspberry Pi Imager" der [hier](https://www.raspberrypi.com/software/) zum Download bereitsteht.
+Als Betriebssystem für ioBroker empfehele ich die OSLite-Version für den Raspberry ohne grafischen Desktop. Die Bedienung von ioBroker und Zigbee2mqtt erfolgt per Browser. Es funktionieren aber auch andere Versionen des Betriebssystems.
+
+- Rapberry Imager als Administrator starten (zumindest unter Windows 11; ansonsten sperrt der Virenschutz das Kopieren einiger Komponenten)
 - 64 Bit OSLite auswählen
 - Hostname und Passwort festlegen
 - SD-Karte schreiben
 
 - SD-Karte in Raspberry einlegen und starten
-- Einloggen. Entweder lokal mit Tastatur und Bildschirm oder per SSH. IP-Adresse über den Router herausfinden!
+- Einloggen. Entweder lokal mit Tastatur und Bildschirm oder per SSH. IP-Adresse über den Router herausfinden! Als SSH-Client empfehle ich [Putty](https://www.putty.org/)
 
 ```
 sudo apt update
