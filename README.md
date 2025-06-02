@@ -14,7 +14,7 @@ Ein Wasserschaden nach einem Rohrbruch oder einer anderen Leckage ist immer eine
 - SD-Karte schreiben
 
 - SD-Karte in Raspberry einlegen und starten
-- Einloggen (SSH)
+- Einloggen. Entweder lokal mit Tastatur und Bildschirm oder per SSH. IP-Adresse über den Router herausfinden!
 
 ```
 sudo apt update
@@ -41,10 +41,6 @@ Folgende Adapter in ioBroker installieren:
 - Zigbee2Mqtt
 
 Zu "Instanzen" wechseln und Instanzen konfigurieren.
-
-
-
-
 
 
 # Installation Zigbee2Mqtt
