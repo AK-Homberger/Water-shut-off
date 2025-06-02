@@ -27,6 +27,8 @@ Die Abschaltung funktioniert nur bei Ventilen mit "nichtsteigender" Spindel. Bei
 
 Die Adapterplatte und der Befestigungsring sind im Verzeichnis SCAD als OpenSCAD- und STL-Datei vorhanden. Die Adapterplatte sollte für die meisten Handräder passen. Bei Bedarf kann man die PLatte aber mit OpenSCAD einach and das aktuelle Handrad anpassen.
 
+![Platte1](https://github.com/AK-Homberger/Wasserabschalter/blob/main/SCAD/Absperrplatte2.stl)
+
 Zur Verbindung zwischen Adapterplatte und Kardangelenk eignet sich zwei 4 mm Schrauben mit Sechskanntkopf (ca 20 mm Länge) und entsprechenden Muttern. Zur Verbindung mit dem Kardagelenk muss die Spitze des 4 mm Gewindes etwas abgefeilt werden damit die Schraube im Kardangelenk mit der Madenschraube fixiert werden kann.
 
 Dann ein 4 mm Loch in die Platte bohren. Die Schraube durch die Platte stecken, sodass der Sechskantkopf in die Aussparung pass. Dann auf der entgegengesetzten Seit mit einer Mutter sichern.
@@ -72,16 +74,11 @@ Im nächsten Schritt wir der Stecke des Netzteils kurz in die Steckdose gesteckt
 
 Sollte bei Ihrem Ventil mehr Kraft nötig sein, kann die Drehmomenteinstellung erhöht werden. Eventuell muss auch der Kabelbinder beim Betätigungshebel noch weiter gespannt weren. Für die richtige Einstellung ist etwas Fingerspitzengefühl njötig. Ziel ist ein sicheres Abdrehen ohnn dass zuviel unnötige Kraft aufgewendet wird. Die Einschaltzeit kann später im Script angepass werden. Die Voreinstellung ist 3 Sekunden. 
 
+Die Öffnung des Ventils muss manuell erfolgen. Ich hatte erst überlegt auch eine automatische Öffnung vorzusehen. Da aber beim Verdacht einer Leckage sowiso eine Prüfung vor Ort nötig ist, habe ich mich dagegen etschieden. 
+
+Zum öffnen des Ventils einfach das Bohrfutter soweit aufdrehen, dass sich das Handrad eifach ohne Widerstand drehen lässt. Dann vollständig aufdrehen und das Bohrfutter wieder festschrauben. Das war es schon.
 
 
-
-
-
-
-
-
-
-![Platte1](https://github.com/AK-Homberger/Wasserabschalter/blob/main/SCAD/Absperrplatte2.stl)
 
 # Installation ioBroker
 
