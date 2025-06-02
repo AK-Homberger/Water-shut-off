@@ -22,7 +22,7 @@ Für die mechanische Abschaltung des Hauwassers verwende eine einfache 12 Volt H
 
 Die Bohrmaschine wird über ein Kardangelenk und deiner Adapterplatt mit dem Handrad des Wasserventils verbunden. Das Kardangelenk soll leicht Achsvershiebungen ausgleichen. Wahrscheinlich würde es auch ohne dieses Gelenk funktionieren.
 
-##Wichtg!
+## Wichtg!
 Die Achaltung funktioniert nur mit "Nichtsteigenden" Ventilen. Bei "steigenden" Ventilen drcht sich die Welle des Handrads in das Ventil hinein. Dadurch würde sich der Abstand zur Bohrmaschibe stetig vergrössern bis keine Verbindung mehr gegeben ist. Daher vorher prüfen, ob ein "nichtstegendes" Ventil verbaut ist. Die Ventile kann auch wechseln. Der lokale Installatur kann hier bei Bedarf helfen. 
 
 
