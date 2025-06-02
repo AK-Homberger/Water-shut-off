@@ -6,6 +6,17 @@ Ein Wasserschaden nach einem Rohrbruch oder einer anderen Leckage ist immer eine
 
 ![Abschalter](https://github.com/AK-Homberger/Wasserabschalter/blob/main/Bilder/Aufmacher1.png)
 
+## Kurzinfo
+- Hauswasserabschaltung über Akkuschrauber mit Drehmomenteinstellung
+- Lekageerkennung über Ikea ZibBee-Wasserdetektor Badring
+- Ansteuerung des Akkuschraubers über Ikea Zigbee-Schalter Tretakt
+- Beliebig viele Sensoren integrierbar
+- Adapterplatte für Handrad als 3D-Druck-Vorlage (anpassbar)
+- Kardangelenk als Achsausgleich
+- Alarmierung per E-Mail und Telefonanruf (erfordert Fritzbox)
+- Steuerung über Script in IoBroker auf einem Raspberry. 
+- ZigBee-Integration in ioBroker über ZigBee2MQTT.
+
 # Installation ioBroker
 
 - Rapberry Imager als Administrator starten
