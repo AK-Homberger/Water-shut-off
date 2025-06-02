@@ -17,7 +17,18 @@ Ein Wasserschaden nach einem Rohrbruch oder einer anderen Leckage ist immer eine
 - Steuerung über Script in IoBroker auf einem Raspberry. 
 - ZigBee-Integration in ioBroker über ZigBee2MQTT.
 
-# Harware
+# Hardware
+Für die mechanische Abschaltung des Hauwassers verwende eine einfache 12 Volt Handbohrmashine mit Drehmomenteinstellung. Ich hatte erst über einen Getriebemotor nachgedacht. Aber die notendige Dremomentkupplung habe ich nirgends günstig gefunden. Bei Akku-Bohrmschinen ist sie dagegen Standard. Bei der Liste der benötigten Teile ist ein Link zu Amazon. Die einfache Bohrmasine für unter 20 Euro reicht hier aus. 
+
+Die Bohrmaschine wird über ein Kardangelenk und deiner Adapterplatt mit dem Handrad des Wasserventils verbunden. Das Kardangelenk soll leicht Achsvershiebungen ausgleichen. Wahrscheinlich würde es auch ohne dieses Gelenk funktionieren.
+
+##Wichtg!
+Die Achaltung funktioniert nur mit "Nichtsteigenden" Ventilen. Bei "steigenden" Ventilen drcht sich die Welle des Handrads in das Ventil hinein. Dadurch würde sich der Abstand zur Bohrmaschibe stetig vergrössern bis keine Verbindung mehr gegeben ist. Daher vorher prüfen, ob ein "nichtstegendes" Ventil verbaut ist. Die Ventile kann auch wechseln. Der lokale Installatur kann hier bei Bedarf helfen. 
+
+
+
+
+
 
 ![Platte1](https://github.com/AK-Homberger/Wasserabschalter/blob/main/SCAD/Absperrplatte2.stl)
 
