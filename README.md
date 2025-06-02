@@ -70,17 +70,23 @@ Jetzt sollte alles fertig moniert sein und im Prnzip so wie auf dem Bild oben au
 ## Prüfung der Funktion und Einstellung des Drehmoments
 Der Akkuschrauber sollte jetzt auf rechtdrehen eingstellt sein. Mit einem Kabelbinder wird nun der Betätigungshebel ca. halb gedrückt befestigt. Die Drehmomenteinstellung wird auf Stellung 1 eingestellt. 
 
-Jetzt die Spannugsverorgung vorbereiten und das 12 Volt Netzteil mit dem Akkuschraube verbinden. Das Netzteil aber noch nicht in die Steckdose einstecken. Ich nutze dazu kleine Krokodilklemmen. Aber auch ein Anlöten der Litzen wäre eine Möglichkeit. Wichtig: Auf die richtig Polarität achten, sonst könnte die Elektrokik des Akkuschraubers zertört werden. Beim Valex Akkuschraube ist Plus zur Wand hin und Minus vorne.
+Jetzt die Spannugsverorgung vorbereiten und das 12 Volt Netzteil mit dem Akkuschraube verbinden. Das Netzteil aber noch nicht in die Steckdose einstecken. Ich nutze dazu kleine Krokodilklemmen. Aber auch ein Anlöten der Litzen wäre eine Möglichkeit. Wichtig: Auf die richtige Polarität achten, sonst könnte die Elektronik des Akkuschraubers zerstört werden. Beim Valex Akkuschrauber ist Plus zur Wand hin und Minus vorne.
 
-Im nächsten Schritt wir der Stecke des Netzteils kurz in die Steckdose gesteckt. Der Akkuschrauber sollte sofort beginnen, das Handrad zu drehen. Nach ca 2 Sekunden sillt die Edstellung erreicht sein und die Drehmomentbegrenzung des Akkuschrauber eingreifen, sodass der Schrauber durchdreht. Jetzt kann der Stecker des Netzteil wieder entfernt werden.
+Im nächsten Schritt wir der Stecker des Netzteils kurz in die Steckdose gesteckt. Der Akkuschrauber sollte sofort beginnen, das Handrad zu drehen. Nach ca 2 Sekunden sillte die Edstellung erreicht sein und die Drehmomentbegrenzung des Akkuschrauber eingreifen, sodass der Schrauber durchdreht. Jetzt kann der Stecker des Netzteil wieder entfernt werden.
 
-Sollte bei Ihrem Ventil mehr Kraft nötig sein, kann die Drehmomenteinstellung erhöht werden. Eventuell muss auch der Kabelbinder beim Betätigungshebel noch weiter gespannt weren. Für die richtige Einstellung ist etwas Fingerspitzengefühl njötig. Ziel ist ein sicheres Abdrehen ohnn dass zuviel unnötige Kraft aufgewendet wird. Die Einschaltzeit kann später im Script angepass werden. Die Voreinstellung ist 3 Sekunden. 
+Sollte bei Ihrem Ventil mehr Kraft nötig sein, kann die Drehmomenteinstellung erhöht werden. Eventuell muss auch der Kabelbinder beim Betätigungshebel noch weiter gespannt weren. Für die richtige Einstellung ist etwas Fingerspitzengefühl njötig. Ziel ist ein sicheres Abdrehen ohnn dass zu viel unnötige Kraft aufgewendet wird. Die Einschaltzeit kann später im Script angepass werden. Die Voreinstellung ist 3 Sekunden. 
 
-Die Öffnung des Ventils muss manuell erfolgen. Ich hatte erst überlegt auch eine automatische Öffnung vorzusehen. Da aber beim Verdacht einer Leckage sowiso eine Prüfung vor Ort nötig ist, habe ich mich dagegen etschieden. 
+Die Öffnung des Ventils muss manuell erfolgen. Ich hatte erst überlegt, auch eine automatische Öffnung vorzusehen. Da aber beim Verdacht einer Leckage sowiso eine Prüfung vor Ort nötig ist, habe ich mich dagegen etschieden. 
 
-Zum öffnen des Ventils einfach das Bohrfutter soweit aufdrehen, dass sich das Handrad eifach ohne Widerstand drehen lässt. Dann vollständig aufdrehen und das Bohrfutter wieder festschrauben. Das war es schon.
+Zum Öffnen des Ventils einfach das Bohrfutter soweit aufdrehen, dass sich das Handrad ohne Widerstand drehen lässt. Dann vollständig aufdrehen und das Bohrfutter wieder festziehen. Das war es schon.
 
+# Software
 
+Die Steuerung des Wasserabschalters erfolgt mit einem Raspberry und zwei Software-Komponenten. Einmal dem Smarthome-System ioBroker und zum Zweiten die Software Zigbee2Mqtt. ioBroker übernimmt dabei die Automatisierung per Script und Zigbee2mqtt die Anbindung der Ikea Zigbee-Komponenten Tertakt (Schalte) und Bdring (Leckage Detektor).
+
+Viele Make leser haben eventuell schon eine Smarthom-Lösung auf einem Raspberry im Einsatz. Dann erübrigt sich die Beschreibung zur Installation des Betriebssystems. Trotzdem beschreib ich hier kurz die vollständige Installation aller drei Komponenten. Rapsberry OS, ioBroker und Zigbee2mqtt.
+
+Übrigens: Falls Nutzer bas beliete Smarthome-System xxx nutzen
 
 # Installation ioBroker
 
