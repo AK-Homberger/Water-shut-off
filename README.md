@@ -33,7 +33,7 @@ Dann ein 4 mm Loch in die Platte bohren. Die Schraube durch die Platte stecken, 
 
 Zur Verbindung mit dem Akkuschrauber die zweite Schraube auch etwas abfeilen und mit der Madenschraube sichern. Der Sechskanntkopf kann damm im Bohrfutter des Akkuschraubers eingespannt werden. Zur besseren Verbindung habe ich noch zwei zusätzliche Muttern bis zum Kopf augeschraubt unf gekonntert.
 
-Zur Verbindung der Adapterplatte mit dem Handrad muss zuerst das Handrad abgeschraubt werden. Dann die Adapterplatte auf der oberen Seite des Handrads platzieren und mit dem Ring auf der unteren Seite fixieren. In die drei Zapfen der Adapterplatt müssen zuvor noch kleine Löcher (2 mm) gebohrt werden. Der Ring wir mit drei kleinen Schrauben (3 mm) festgeschraubt damit die Adapterplatte fest mit dem Handrad vrbunden ist.
+Zur Verbindung der Adapterplatte mit dem Handrad muss zuerst das Handrad abgeschraubt werden. Dann die Adapterplatte auf der oberen Seite des Handrads platzieren und mit dem Ring auf der unteren Seite fixieren. In die drei Zapfen der Adapterplatt müssen zuvor noch kleine Löcher (2 mm) gebohrt werden. Der Ring wird mit drei kleinen Schrauben (3 mm) festgeschraubt damit die Adapterplatte fest mit dem Handrad vrbunden ist.
 
 ## Montage des Akkuschraubers
 
@@ -41,10 +41,10 @@ Zur einfachen Montage des Akkuschraubers verwende ich sogenannte [Thermohalter](
 
 ![Halter](https://alufensterbaenke.de/media/catalog/product/cache/2ad09310492482b8dd76867023a48036/0/1/01_thermohalter_anwendung_mg.jpg)
 
-Der Vorteil dieser Lösung ist der variable Abstand zur Wand, der einfach duerch kürzen der Alu-Profile auf die benötigte Länge erfolgt.
+Der Vorteil dieser Lösung ist der variable Abstand zur Wand, der einfach durch kürzen der Alu-Profile auf die benötigte Länge erfolgt.
 
-Für die Verbindung zwisch Wand und Akkuschrauber werden einfach zwei dieser Halter so ineinander geschoben, dass sich viereckiger Kasten ergibt.
-Der Abstand kann durch weniger oder mehr ineinanderschieben verändert werden. Ist der richtige Abstand gefunden, können die Profile mit eine Schraube fixiert werden. Eine Seite reicht dabei.
+Für die Verbindung zwischen Wand und Akkuschrauber werden einfach zwei dieser Halter so ineinander geschoben, dass sich viereckiger Kasten ergibt.
+Der Abstand kann durch weniger oder mehr ineinanderschieben verändert werden. Ist der richtige Abstand gefunden, können die Profile mit einer Schraube fixiert werden. Eine Seite reicht dabei.
 
 Für die Montage bleiben die vorbereiteten Profilhälften jedoch noch getrennt. 
 
@@ -52,9 +52,9 @@ Auf der Seite zur Wand werden zwei Löcher in die Alu-Profile gebohrt. Der Durch
 
 Beim Profil zum Akkuschrauber wird der Akkuschrauber mit zwei Kabelbindern mit dem Profil befestigt. Das Bild oben zeigt wie es aussehen soll.
 
-Das Bohrfutter des Akkuschrauber wird aufgedreht, sodass dir Sechkannt-Schraubenkopf von der Kardangelenk-Verlängerung locker hineinpasst.
+Das Bohrfutter des Akkuschraubers wird aufgedreht, sodass dir Sechkannt-Schraubenkopf von der Kardangelenk-Verlängerung locker hineinpasst.
 
-Danach können die Profile ineinandergesteckt werden. Als Nächstes den Akkuschrauber positionieren und das Bohrfutter soweit festschrauben, dass eine sichere Verbinndung gegeben ist. Noch einmal die Achsausrichtung prüfen und eventuel korrigieren. Jetzt können die Bohrstellen mit einem Stift markiert werden.
+Danach können die Profile ineinandergesteckt werden. Als Nächstes den Akkuschrauber positionieren und das Bohrfutter soweit festschrauben, dass eine sichere Verbinndung gegeben ist. Noch einmal die Achsausrichtung prüfen und eventuell korrigieren. Jetzt können die Bohrstellen mit einem Stift markiert werden.
 
 Dann die Löcher mit einer Bohrmaschine bohren (6 mm sollten  reichen). Dann die Dübel einsetzen und das wandseitige Profil festschrauben. 
 Eventuell die Profile dazu wieder trennen.
@@ -64,6 +64,11 @@ Jetzt kann alles fertig montiert werden. Dazu das Schrauberseitige Profil aufste
 Jetzt sollte alles fertig moniert sein und im Prnzip so wie auf dem Bild oben aussehen.
 
 ## Prüfung der Funktion und Einstellung des Drehmoments
+Der Akkuschrauber sollte jetzt auf rechtdrehen eingstellt sein. Mit einem Kabelbinder wird nun der Betätigungshebel ca. halb gedrückt befestigt. Die Drehmomenteinstellung wird auf Stellung 1 eingestellt. 
+
+Jetzt die Spannugsverorgung vorbereiten und das 12 Volt Netzteil mit dem Akkuschraube verbinden. Ich nutze dazu kleine Krokodilklemmen. Aber auch ein Anlöten der Litzen wäre eine Möglichkeit. Wichtig: Auf die richtig Polarität achten, sonst könnte die Elektrokik des Akkuschrauber zertört werden. 
+
+Im nächsten Schritt 
 
 
 
