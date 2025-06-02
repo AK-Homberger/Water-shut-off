@@ -77,7 +77,7 @@ Environment=NODE_ENV=production
 ExecStart=/usr/bin/node index.js
 WorkingDirectory=/opt/zigbee2mqtt
 StandardOutput=inherit
-# Or use StandardOutput=null if you don't want Zigbee2MQTT messages filling syslog, for more options see systemd.exec(5)
+#Or use StandardOutput=null if you don't want Zigbee2MQTT messages filling syslog, for more options see systemd.exec(5)
 StandardError=inherit
 #WatchdogSec=10s
 Restart=always
