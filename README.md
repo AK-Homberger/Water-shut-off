@@ -52,7 +52,7 @@ Zu "Instanzen" wechseln und Instanzen konfigurieren.
 Detaillierte Informationen sind hier zu finden: https://www.zigbee2mqtt.io/guide/installation/01_linux.html
 
 Die folgenden Befehle reichen aber aus:
-
+```
 sudo curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
 sudo apt install -y nodejs git make g++ gcc libsystemd-dev
 sudo npm install -g pnpm
@@ -64,14 +64,14 @@ git clone --depth 1 https://github.com/Koenkk/zigbee2mqtt.git /opt/zigbee2mqtt
 
 cd /opt/zigbee2mqtt
 pnpm i --frozen-lockfile
-
+```
 Testen mit: pnpm start
 
 Start als Service:
-
+```
 sudo nano /etc/systemd/system/zigbee2mqtt.service
-
-------
+```
+```
 [Unit]
 Description=zigbee2mqtt
 After=network.target
@@ -91,14 +91,14 @@ User=pi
 
 [Install]
 WantedBy=multi-user.target
--------
-
+```
+```
 sudo systemctl start zigbee2mqtt
 
 systemctl status zigbee2mqtt.service
 
 sudo systemctl enable zigbee2mqtt.service
-
+```
 
 
 
