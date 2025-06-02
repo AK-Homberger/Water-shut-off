@@ -27,7 +27,7 @@ Die Abschaltung funktioniert nur bei Ventilen mit "nichtsteigender" Spindel. Bei
 
 Die Adapterplatte und der Befestigungsring sind im Verzeichnis SCAD als OpenSCAD- und STL-Datei vorhanden. Die Adapterplatte sollte für die meisten Handräder passen. Bei Bedarf kann man die Platte aber mit OpenSCAD einfach an das aktuelle Handrad anpassen.
 
-![Platte1](https://github.com/AK-Homberger/Wasserabschalter/blob/main/SCAD/Absperrplatte2.stl)
+![Platte1](https://github.com/AK-Homberger/Wasserabschalter/blob/main/SCAD/Absperrplatte2.stl) ![Ring](https://github.com/AK-Homberger/Wasserabschalter/blob/main/SCAD/Absperrplatte2-Ring.stl)
 
 Zur Verbindung zwischen Kardangelenk aund Adapterplatt/Bohrmaschine eignen sich zwei 4 mm Schrauben (ca 20 mm Länge) eine mit Rundkopf und eine mit Sechskanntkopf und entsprechende Muttern. Zur Verbindung mit dem Kardagelenk muss die Spitze des 4 mm Gewindes etwas abgefeilt werden damit die Schraube im Kardangelenk mit der Madenschraube fixiert werden kann.
 
