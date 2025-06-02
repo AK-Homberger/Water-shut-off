@@ -82,11 +82,12 @@ Zum Öffnen des Ventils einfach das Bohrfutter soweit aufdrehen, dass sich das H
 
 # Software
 
-Die Steuerung des Wasserabschalters erfolgt mit einem Raspberry und zwei Software-Komponenten. Einmal dem Smarthome-System ioBroker und zum Zweiten die Software Zigbee2Mqtt. ioBroker übernimmt dabei die Automatisierung per Script und Zigbee2mqtt die Anbindung der Ikea Zigbee-Komponenten Tertakt (Schalte) und Bdring (Leckage Detektor).
+Die Steuerung des Wasserabschalters erfolgt mit einem Raspberry und zwei Software-Komponenten. Einmal dem Smarthome-System [ioBroker](www.iobroker.net) und zum Zweiten die Software [Zigbee2Mqtt](https://github.com/Koenkk/zigbee2mqtt). ioBroker übernimmt dabei die Automatisierung per Script und Zigbee2mqtt die Anbindung der Ikea Zigbee-Komponenten Tertakt (Schalte) und Bdring (Leckage Detektor).
 
 Viele Make leser haben eventuell schon eine Smarthom-Lösung auf einem Raspberry im Einsatz. Dann erübrigt sich die Beschreibung zur Installation des Betriebssystems. Trotzdem beschreib ich hier kurz die vollständige Installation aller drei Komponenten. Rapsberry OS, ioBroker und Zigbee2mqtt.
 
-Übrigens: Falls Nutzer bas beliete Smarthome-System xxx nutzen
+Übrigens: Falls Nutzer breits bas Smarthome-System Home Assistant nutzen, funktioniert die Steuerung über die Ikea ZigBee-Komponenten ebenfalls. Auch für Home Assitant ist ein entprechender Adapter für Zigbee2Mqtt verfügbar. Hier wird jedoch die Realisierung mit ioBroker beschrieben.
+
 
 # Installation ioBroker
 
