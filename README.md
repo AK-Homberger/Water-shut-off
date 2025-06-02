@@ -66,9 +66,12 @@ Jetzt sollte alles fertig moniert sein und im Prnzip so wie auf dem Bild oben au
 ## Prüfung der Funktion und Einstellung des Drehmoments
 Der Akkuschrauber sollte jetzt auf rechtdrehen eingstellt sein. Mit einem Kabelbinder wird nun der Betätigungshebel ca. halb gedrückt befestigt. Die Drehmomenteinstellung wird auf Stellung 1 eingestellt. 
 
-Jetzt die Spannugsverorgung vorbereiten und das 12 Volt Netzteil mit dem Akkuschraube verbinden. Ich nutze dazu kleine Krokodilklemmen. Aber auch ein Anlöten der Litzen wäre eine Möglichkeit. Wichtig: Auf die richtig Polarität achten, sonst könnte die Elektrokik des Akkuschrauber zertört werden. 
+Jetzt die Spannugsverorgung vorbereiten und das 12 Volt Netzteil mit dem Akkuschraube verbinden. Das Netzteil aber noch nicht in die Steckdose einstecken. Ich nutze dazu kleine Krokodilklemmen. Aber auch ein Anlöten der Litzen wäre eine Möglichkeit. Wichtig: Auf die richtig Polarität achten, sonst könnte die Elektrokik des Akkuschraubers zertört werden. Beim Valex Akkuschraube ist Plus zur Wand hin und Minus vorne.
 
-Im nächsten Schritt 
+Im nächsten Schritt wir der Stecke des Netzteils kurz in die Steckdose gesteckt. Der Akkuschrauber sollte sofort beginnen, das Handrad zu drehen. Nach ca 2 Sekunden sillt die Edstellung erreicht sein und die Drehmomentbegrenzung des Akkuschrauber eingreifen, sodass der Schrauber durchdreht. Jetzt kann der Stecker des Netzteil wieder entfernt werden.
+
+Sollte bei Ihrem Ventil mehr Kraft nötig sein, kann die Drehmomenteinstellung erhöht werden. Eventuell muss auch der Kabelbinder beim Betätigungshebel noch weiter gespannt weren. Für die richtige Einstellung ist etwas Fingerspitzengefühl njötig. Ziel ist ein sicheres Abdrehen ohnn dass zuviel unnötige Kraft aufgewendet wird. Die Einschaltzeit kann später im Script angepass werden. Die Voreinstellung ist 3 Sekunden. 
+
 
 
 
