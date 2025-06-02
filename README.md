@@ -94,7 +94,7 @@ Für die verlässliche Funktion des Systems ist mindestens eine Raspberry 4 mit 
 
 ## Installation Raspberry OS und ioBroker
 Zur Vorbereitung der Installation benötigen wir zuerst des "Raspberry Pi Imager" der [hier](https://www.raspberrypi.com/software/) zum Download bereitsteht.
-Als Betriebssystem für ioBroker empfehele ich die OSLite-Version für den Raspberry ohne grafischen Desktop. Die Bedienung von ioBroker und Zigbee2mqtt erfolgt per Browser. Es funktionieren aber auch andere Versionen des Betriebssystems.
+Als Betriebssystem für ioBroker empfehele ich die OSLite-Version für den Raspberry ohne grafischen Desktop. Die Bedienung von ioBroker und Zigbee2mqtt erfolgt per Browser. Es funktionieren aber auch andere Versionen des Betriebssystems. Zum Schreiben des Betriebssytems auf die SD-Karte wird ein entsprechnder [Adapter](https://www.amazon.de/dp/B00FQFYOM4?m=A3JWKAKR8XB7XF&tag=idealode-am-pk-21&ascsubtag=2025-06-02_1aa85425a4387675e0630105a969d561295fb9d124fe19fd21d13d23a81dcf0f&th=1&psc=1) benötigt. 
 
 - Rapberry Imager als Administrator starten (zumindest unter Windows 11; ansonsten sperrt der Virenschutz das Kopieren einiger Komponenten)
 - 64 Bit OSLite auswählen
