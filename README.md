@@ -25,13 +25,13 @@ Die Bohrmaschine wird über ein [Kardangelenk](https://www.amazon.de/Kardangelen
 ## Wichtg! Nichtsteigende Spindel
 Die Abschaltung funktioniert nur bei Ventilen mit "nichtsteigender" Spindel. Bei Ventilen mit "steigender" Spindel dreht sich die Welle des Handrads in das Ventil hinein. Dadurch würde sich der Abstand zur Bohrmaschine stetig vergrössern, bis keine Verbindung mehr gegeben ist. Daher vorher prüfen, ob ein Ventil mit "nichtstegender" Spindel verbaut ist. Die [Ventile/Oberteile](https://www.ew-haustechnik.com/JS-Fettkammer-Oberteil-KFR-Typ-1821-mit-nichtsteigender-Spindel-fuer-KFR-und-Freistromventile) kann auch wechseln. Der lokale Installatur kann hier bei Bedarf helfen. 
 
-Die Adapterplatte und der Befestigungsring sind im Verzeichnis SCAD als OpenSCAD- und STL-Datei vorhanden. Die Adapterplatte sollte für die meisten Handräder passen. Bei Bedarf kann man die PLatte aber mit OpenSCAD einach and das aktuelle Handrad anpassen.
+Die Adapterplatte und der Befestigungsring sind im Verzeichnis SCAD als OpenSCAD- und STL-Datei vorhanden. Die Adapterplatte sollte für die meisten Handräder passen. Bei Bedarf kann man die Platte aber mit OpenSCAD einfach an das aktuelle Handrad anpassen.
 
 ![Platte1](https://github.com/AK-Homberger/Wasserabschalter/blob/main/SCAD/Absperrplatte2.stl)
 
-Zur Verbindung zwischen Adapterplatte und Kardangelenk eignet sich zwei 4 mm Schrauben mit Sechskanntkopf (ca 20 mm Länge) und entsprechenden Muttern. Zur Verbindung mit dem Kardagelenk muss die Spitze des 4 mm Gewindes etwas abgefeilt werden damit die Schraube im Kardangelenk mit der Madenschraube fixiert werden kann.
+Zur Verbindung zwischen Kardangelenk aund Adapterplatt/Bohrmaschine eignen sich zwei 4 mm Schrauben (ca 20 mm Länge) eine mit Rundkopf und eine mit Sechskanntkopf und entsprechende Muttern. Zur Verbindung mit dem Kardagelenk muss die Spitze des 4 mm Gewindes etwas abgefeilt werden damit die Schraube im Kardangelenk mit der Madenschraube fixiert werden kann.
 
-Dann ein 4 mm Loch in die Platte bohren. Die Schraube durch die Platte stecken, sodass der Sechskantkopf in die Aussparung pass. Dann auf der entgegengesetzten Seit mit einer Mutter sichern.
+Dann ein 4 mm Loch in die Platte bohren. Die Schraube mit Rundkopf durch die Platte stecken sodass der Rundkopf in die Aussparung passt. Dann auf der entgegengesetzten Seit mit einer Mutter sichern. Eventuell mit einer zweiten Kontermutter sichern.
 
 Zur Verbindung mit dem Akkuschrauber die zweite Schraube auch etwas abfeilen und mit der Madenschraube sichern. Der Sechskanntkopf kann damm im Bohrfutter des Akkuschraubers eingespannt werden. Zur besseren Verbindung habe ich noch zwei zusätzliche Muttern bis zum Kopf augeschraubt unf gekonntert.
 
