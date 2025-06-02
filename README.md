@@ -92,7 +92,7 @@ Für die verlässliche Funktion des Systems ist mindestens eine Raspberry 4 mit 
 
 
 
-# Installation Raspberry OS und ioBroker
+## Installation Raspberry OS und ioBroker
 Zur Vorbereitung der Installation benötigen wir zuerst des "Raspberry Pi Imager" der [hier](https://www.raspberrypi.com/software/) zum Download bereitsteht.
 Als Betriebssystem für ioBroker empfehele ich die OSLite-Version für den Raspberry ohne grafischen Desktop. Die Bedienung von ioBroker und Zigbee2mqtt erfolgt per Browser. Es funktionieren aber auch andere Versionen des Betriebssystems.
 
@@ -131,7 +131,7 @@ Folgende Adapter in ioBroker installieren:
 Zu "Instanzen" wechseln und Instanzen konfigurieren.
 
 
-# Installation Zigbee2Mqtt
+## Installation Zigbee2Mqtt
 
 Detaillierte Informationen sind hier zu finden: https://www.zigbee2mqtt.io/guide/installation/01_linux.html
 
@@ -237,7 +237,3 @@ systemctl status zigbee2mqtt.service
 
 sudo systemctl enable zigbee2mqtt.service
 ```
-
-
-
-
