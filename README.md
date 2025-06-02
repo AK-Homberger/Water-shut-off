@@ -72,6 +72,45 @@ git clone --depth 1 https://github.com/Koenkk/zigbee2mqtt.git /opt/zigbee2mqtt
 cd /opt/zigbee2mqtt
 pnpm i --frozen-lockfile
 ```
+
+Datei "configuration.yaml" anpassen:
+
+```
+nano cd /opt/zigbee2mqtt/data/configuration.yaml
+```
+```
+homeassistant:
+  enabled: false
+frontend:
+  enabled: true
+  port: 8080
+  host: 0.0.0.0
+mqtt:
+  base_topic: zigbee2mqtt
+  server: mqtt://localhost:1887
+serial:
+  port: /dev/ttyUSB0
+  adapter: zstack
+advanced:
+  cache_state: false
+  output: json
+  channel: 11
+  transmit_power: 5
+  homeassistant_legacy_entity_attributes: false
+  homeassistant_legacy_triggers: false
+  legacy_api: false
+  legacy_availability_payload: false
+  log_level: warning
+device_options:
+  legacy: false
+availability:
+  enabled: true
+  active:
+    timeout: 10
+  passive:
+    timeout: 1500
+```
+
 Testen mit: 
 ```
 pnpm start
