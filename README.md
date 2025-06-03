@@ -75,7 +75,7 @@ curl -sLf https://iobroker.net/install.sh | bash -
 
 installieren.
 
-Open ioBroker: http://IP-Adresse:8081
+ioBroker im Browser öffnen: http://IP-Adresse:8081
 
 ioBroker Einstellungen festlegen.
 
@@ -86,7 +86,6 @@ Folgende Adapter in ioBroker installieren:
 - Zigbee2Mqtt
 
 Zu "Instanzen" wechseln und Instanzen konfigurieren.
-
 
 ## Installation Zigbee2Mqtt
 
@@ -112,6 +111,7 @@ Datei "configuration.yaml" anpassen:
 ```
 nano /opt/zigbee2mqtt/data/configuration.yaml
 ```
+Folgenden Text einfügen:
 ```
 homeassistant:
   enabled: false
@@ -157,6 +157,7 @@ Editor starten und Datei "zigbee2mqtt.service" mit folgendem Inhalt erzeugen.
 ```
 sudo nano /etc/systemd/system/zigbee2mqtt.service
 ```
+Folgenden Text einfügen:
 ```
 [Unit]
 Description=zigbee2mqtt
@@ -192,5 +193,11 @@ auskommentieren. Ansonsten funktionierte der Start über Systemctl nicht richtig
 ```
 sudo systemctl start zigbee2mqtt
 systemctl status zigbee2mqtt.service
-do systemctl enable zigbee2mqtt.service
+sudo systemctl enable zigbee2mqtt.service
 ```
+Jetzt kann der Raspberry miz "sudo reboot" neu gestart werden. 
+
+ioBroker im Browser öffnen: http://IP-Adresse:8081
+
+
+
