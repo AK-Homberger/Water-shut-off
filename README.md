@@ -49,6 +49,8 @@ Vor der Intallation der Software sollte der [Sonoff-Zigbee-Adapter](https://sono
 
 Wichtig: Es gibt zwei Versionen des Zigbee-Adapters SBDongle-P und ZBDongle-E mit unterschiedlichen Chipsets. Für diese Projekt wird der Dongle "P" mit dem Chipset "CC2652P" benötigt. Der andere sollte auch funktionieren. Es müssen dann aber Einstellungen in der Konfiguration geändert werden.
 
+Für eine bessere Funkverbindung hat es sich bewährt, den Dongle nicht direkt in den Raspberry zu stecken, sondern mit einem USB-Verlängerungskabel etws entfernt vom Raspberry aufzustellen.
+
 ## Installation
 
 - Rapberry Imager als Administrator starten (zumindest unter Windows 11; ansonsten sperrt der Virenschutz das Kopieren einiger Komponenten)
