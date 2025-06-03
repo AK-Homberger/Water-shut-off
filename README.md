@@ -43,6 +43,12 @@ Als Betriebssystem für ioBroker empfehele ich die OSLite-Version für den Raspb
 
 Für den einfachen Nachbau habe ich alle Kommandos hir aufgeführt. Sie können eineln kopiert und im Raspberry Terminal eingefügt werden. Das spart mühsame Tipperei.
 
+Vor der Intallation der Software sollte der [Sonoff-Zigbee-Adapter](https://sonoff.tech/product/gateway-and-sensors/sonoff-zigbee-3-0-usb-dongle-plus-p/) in eine USB-Buchse eingeteckt werden. 
+
+![Sonoff-Dongle](http://sonoff.tech/wp-content/uploads/2021/09/5-1.jpg)
+
+Wichtig: Es gibt zwei Versionen des Zigbee-Adapters SBDongle-P und ZBDongle-E mit unterschiedlichen Chipsets. Für diese Projekt wird der Dongle "P" mit dem Chipset "CC2652P" benötigt. Der andere sollte auch funktionieren. Es müssen dann aber Einstellungen in der Konfiguration geändert werden.
+
 ## Installation
 
 - Rapberry Imager als Administrator starten (zumindest unter Windows 11; ansonsten sperrt der Virenschutz das Kopieren einiger Komponenten)
@@ -136,6 +142,7 @@ availability:
   passive:
     timeout: 1500
 ```
+Beenden mit Strg-X und Schreiben mit "Y".
 
 Testen mit: 
 ```
@@ -169,6 +176,7 @@ User=pi
 [Install]
 WantedBy=multi-user.target
 ```
+Beenden mit Strg-X und Schreiben mit "Y".
 Wegen eines Fehlers bei meiner Raspberry Version (Bookworm) musste ich die Zeilen 
 ```
 #Type=notify
@@ -181,8 +189,6 @@ auskommentieren. Ansonsten funktionierte der Start über Systemctl nicht richtig
 
 ```
 sudo systemctl start zigbee2mqtt
-
 systemctl status zigbee2mqtt.service
-
-sudo systemctl enable zigbee2mqtt.service
+do systemctl enable zigbee2mqtt.service
 ```
