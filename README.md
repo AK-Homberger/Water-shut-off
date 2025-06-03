@@ -18,7 +18,7 @@ Ein Wasserschaden nach einem Rohrbruch oder einer anderen Leckage ist immer eine
 - ZigBee-Integration in ioBroker über ZigBee2MQTT.
 
 # Hardware
-Für die mechanische Abschaltung des Hauwassers verwende eine einfache 12 Volt Handbohrmashine mit Drehmomenteinstellung. Ich hatte erst über einen Getriebemotor nachgedacht. Aber die notendige Drehmomentkupplung habe ich nirgends günstig gefunden. Bei Akku-Bohrmschinen ist sie dagegen Standard. Bei der Liste der benötigten Teile ist ein Link zu [Amazon](https://www.amazon.de/Akkuschrauber-Lithium-family-tech-112-Valex-1429400/dp/B077YSQW1Z) dabei. Die einfache Bohrmaschine für unter 20 Euro reicht hier aus. 
+Für die mechanische Abschaltung des Hauwassers verwende eine einfache 12 Volt Handbohrmashine mit Drehmomenteinstellung. Ich hatte erst über einen Getriebemotor nachgedacht. Aber die notendige Drehmomentkupplung habe ich nirgends günstig gefunden. Bei Akku-Bohrmschinen ist sie dagegen Standard. Bei der [Liste der benötigten](https://github.com/AK-Homberger/Wasserabschalter/blob/main/README.md#bezugsquellen) Teile ist ein Link zu [Amazon](https://www.amazon.de/Akkuschrauber-Lithium-family-tech-112-Valex-1429400/dp/B077YSQW1Z) dabei. Die einfache Bohrmaschine für unter 20 Euro reicht hier aus. 
 
 Die Bohrmaschine wird über ein Kardangelenk und eine Adapterplatte mit dem Handrad des Wasserventils verbunden. Das Kardangelenk soll leichte Achsverschiebungen ausgleichen. Wahrscheinlich würde es auch ohne dieses Gelenk funktionieren.
 
