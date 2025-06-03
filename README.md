@@ -203,9 +203,82 @@ Dann zum Tab Zigbee2MQTT wechseln und den Schalter [Tretakt](https://www.zigbee2
 ![Tretakt](https://www.zigbee2mqtt.io/images/devices/E22x4.png)
 ![Badring](https://www.zigbee2mqtt.io/images/devices/E2202.png)
 
-Dazu "Anlernen aktivieren (alle) auswählen. Beim Schalter Tretakt muss zum Pairen die kleine Tste in der Vertiefung unter dem Ein/Aus-Taster für ca. 2 Sekunden gedrückt werden. Beim Sensor Badring befindet sich der Pairing-Taster unter der Batterie-Abdeckung. Der Taster mus viermal hintereinander gedrückt werden.
+Dazu "Anlernen aktivieren (alle)" auswählen. Beim Schalter Tretakt muss zum Pairen die kleine Taste in der Vertiefung unter dem Ein/Aus-Taster für ca. 2 Sekunden gedrückt werden. Beim Sensor Badring befindet sich der Pairing-Taster unter der Batterie-Abdeckung. Der Taster mus viermal hintereinander gedrückt werden.
 
 Jetzt sollten die Komponenten in der Lista angezeigt werden.
+
+Im nächsten Schritt ertellen wir das Scripz zum steueren des Akkuschraubers und zur Benachrihtigung.
+
+Dazu links im ioBroker-Menü "Scripte" auswählem un ein nes Script mit "+" erzeugen. Als Namen "Wasserabschalter" wählen. Dann den folgenden Text einfügen:
+
+```
+var OffTime = 3; // Zeit zum Abdrehen in Sekunden
+
+var Schalter = "zigbee2mqtt.0.0x881a14fffe2f0931.state";
+var Sensor_1 = "zigbee2mqtt.0.0xc4d8c8fffeef649d.detected";
+var Sensor_2 = "zigbee2mqtt.0.0xc4d8c8fffeff3b9f.detected";
+
+// Motor ausschalten
+function AbschaltungAus() {
+    setState(Schalter, false);    
+}
+
+// Motor für "OffTime" einschalten
+function AbschaltungAn() {
+    setState(Schalter, true);
+    setTimeout(AbschaltungAus, OffTime * 1000);	
+}
+
+AbschaltungAus();  // Abschalten beim Start des Scripts
+
+// Heizung Sensor (Therme und Speicher)
+on({id: Sensor_1}, async function (obj) {
+          
+    if (getState(Sensor_1).val == true) {
+	    AbschaltungAn();
+        sendTo("email.0", "Wassersensor Heizung: Feucht!"); // Sende email 
+        setState("tr-064.0.states.ring", "Telefonnummer");    // Anrufen            
+    }    
+    else if (getState(Sensor_1).val == false) {
+		sendTo("email.0", "Wassersensor Heizung: Trocken!");// Sende email         
+    }    
+});
+
+// Keller Sensor
+on({id: Sensor_2}, async function (obj) {
+          
+    if (getState(Sensor_2).val == true) {
+	    AbschaltungAn();
+        sendTo("email.0", "Wassersensor Keller: Feucht!");  // Sende email 
+        setState("tr-064.0.states.ring", "Telefonnummer");    // Anrufen             
+    }    
+    else if (getState(Sensor_2).val == false) {
+		sendTo("email.0", "Wassersensor Keller: Trocken!"); // Sende email       
+    }    
+});
+
+// Abschaltung nach "OffTime" nach manuellem Anschalten zum Testen (Sensoren trocken)
+on({id: Schalter}, async function (obj) {
+          
+    if ((getState(Schalter).val == true) && 
+        (getState(Sensor_1).val == false) &&
+        (getState(Sensor_2).val == false)) {
+	    setTimeout(AbschaltungAus, OffTime * 1000);
+    }             
+});
+```
+
+Im Script müssen noch die eindeutigen Bezeichnungen der Zigbee-Komponenten "Schalter" und "Sensor_1/2" angepasst werden. 
+Die richtigen Bezeichnungen können mit der Funktion "Objekt-ID einfügen" obem rechts mit dem Klemmbrett Symbol herausgefunden und eingefügt werden.
+Auch die "Telefonnummer" muss noch angepasst werden.
+
+Dann "Speichern" wählen. Sofern keine Fehlermeldungen ausgegeben werden steht einem Test nichts im Wege. Der Lekagesensor reagiert übrigens auch auf "feuchte" Finger.
+
+Beim Auslösen sollte nun das Wasser abgeschaltet werden und eine E-Mail versendet werden. Sofern eine Fritzbox vohanden ist sollte auch das Telefon mit der angegebenen Nummer klingeln.
+
+
+
+
 
 
 
