@@ -35,7 +35,7 @@ Der Vorteil dieser Lösung ist der variable Abstand zur Wand, der einfach durch 
 # Software
 Die Steuerung des Wasserabschalters erfolgt mit einem Raspberry und zwei Software-Komponenten. Einmal dem Smarthome-System [ioBroker](https://www.iobroker.net/) und zum Zweiten die Software [Zigbee2Mqtt](https://github.com/Koenkk/zigbee2mqtt). ioBroker übernimmt dabei die Automatisierung per Script und Zigbee2mqtt die Anbindung der Ikea Zigbee-Komponenten Tertakt (Schalte) und Bdring (Leckage Detektor).
 
-Für die verlässliche Funktion des Systems ist mindestens eine Raspberry 4 mit 2 GB RAM erforderlich. Ein komplette Bundle ist zum Beispiel [hier](https://www.reichelt.de/de/de/shop/produkt/das_reichelt_raspberry_pi_4_b_2_gb_all-in-bundle-263082?PROVID=2788&gQT=2) verfügbar.
+Für die verlässliche Funktion des Systems ist mindestens ein Raspberry 4 mit 2 GB RAM erforderlich. Ein komplettes Bundle ist zum Beispiel [hier](https://www.reichelt.de/de/de/shop/produkt/das_reichelt_raspberry_pi_4_b_2_gb_all-in-bundle-263082?PROVID=2788&gQT=2) verfügbar.
 
 ## Installation Raspberry OS und ioBroker
 Zur Vorbereitung der Installation benötigen wir zuerst des "Raspberry Pi Imager" der [hier](https://www.raspberrypi.com/software/) zum Download bereitsteht.
