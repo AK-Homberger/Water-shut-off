@@ -65,7 +65,7 @@ Für eine bessere Funkverbindung hat es sich bewährt, den Dongle nicht direkt i
 sudo apt update
 sudo apt upgrade
 
-sudo raspi-config - Filesystem expand unf Logging aus.
+sudo raspi-config - Filesystem expand und Logging aus.
 ```
 
 ioBroker mit : 
@@ -205,11 +205,11 @@ Dann zum Tab Zigbee2MQTT wechseln und den Schalter [Tretakt](https://www.zigbee2
 
 Dazu "Anlernen aktivieren (alle)" auswählen. Beim Schalter Tretakt muss zum Pairen die kleine Taste in der Vertiefung unter dem Ein/Aus-Taster für ca. 2 Sekunden gedrückt werden. Beim Sensor Badring befindet sich der Pairing-Taster unter der Batterie-Abdeckung. Der Taster mus viermal hintereinander gedrückt werden.
 
-Jetzt sollten die Komponenten in der Lista angezeigt werden.
+Jetzt sollten die Komponenten in der Liste angezeigt werden.
 
-Im nächsten Schritt ertellen wir das Scripz zum steueren des Akkuschraubers und zur Benachrihtigung.
+Im nächsten Schritt erstellen wir das Script zum steueren des Akkuschraubers und zur Benachrichtigung.
 
-Dazu links im ioBroker-Menü "Scripte" auswählem un ein nes Script mit "+" erzeugen. Als Namen "Wasserabschalter" wählen. Dann den folgenden Text einfügen:
+Dazu links im ioBroker-Menü "Scripte" auswählen und ein neues Script mit "+" erzeugen. Als Namen "Wasserabschalter" wählen. Dann den folgenden Text einfügen:
 
 ```
 var OffTime = 3; // Zeit zum Abdrehen in Sekunden
@@ -269,12 +269,12 @@ on({id: Schalter}, async function (obj) {
 ```
 
 Im Script müssen noch die eindeutigen Bezeichnungen der Zigbee-Komponenten "Schalter" und "Sensor_1/2" angepasst werden. 
-Die richtigen Bezeichnungen können mit der Funktion "Objekt-ID einfügen" obem rechts mit dem Klemmbrett Symbol herausgefunden und eingefügt werden.
+Die richtigen Bezeichnungen können mit der Funktion "Objekt-ID einfügen" oben rechts mit dem Klemmbrett-Symbol herausgefunden und eingefügt werden.
 Auch die "Telefonnummer" muss noch angepasst werden.
 
 Dann "Speichern" wählen. Sofern keine Fehlermeldungen ausgegeben werden steht einem Test nichts im Wege. Der Lekagesensor reagiert übrigens auch auf "feuchte" Finger.
 
-Beim Auslösen sollte nun das Wasser abgeschaltet werden und eine E-Mail versendet werden. Sofern eine Fritzbox vohanden ist sollte auch das Telefon mit der angegebenen Nummer klingeln.
+Beim Auslösen sollte nun das Wasser abgeschaltet werden und eine E-Mail versendet werden. Sofern eine Fritzbox vorhanden ist sollte auch das Telefon mit der angegebenen Nummer klingeln. Wenn keine Fritzbox vorhanden ist bitte die Zeilen "setState("tr-064.0.states.ring", "Telefonnummer");" auskommentieren.  
 
 
 
