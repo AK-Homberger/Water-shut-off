@@ -280,7 +280,7 @@ Beim Auslösen sollte nun das Wasser abgeschaltet werden und eine E-Mail versend
 # Bezugsquellen:
 
 - Raspberry Pi 4 Kit [Reichelt.de](https://www.reichelt.de/de/de/shop/produkt/das_reichelt_raspberry_pi_4_b_2_gb_all-in-bundle-263082)
-- SONOFF Zigbee 3.0 USB Dongle [Amazon,com](https://www.amazon.de/SONOFF-Gateway-CC2652P-Assistant-Zigbee2MQTT/dp/B09KXTCMSC)
+- SONOFF Zigbee 3.0 USB Dongle [Amazon.com](https://www.amazon.de/SONOFF-Gateway-CC2652P-Assistant-Zigbee2MQTT/dp/B09KXTCMSC)
 - Ikea Zigbee-Schalter TRETAKT [Ikea](https://www.ikea.com/de/de/p/tretakt-steckdose-smart-80540349/)
 - Ikea Zigbee-Leckagesensor BADRING [Ikea](https://www.ikea.com/de/de/p/badring-wasserlecksensor-smart-60504352/)
 - Valex Akkuschrauber [Amazon.com](https://www.amazon.de/Akkuschrauber-Lithium-family-tech-112-Valex-1429400/dp/B077YSQW1Z)
