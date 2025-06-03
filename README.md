@@ -20,7 +20,10 @@ Ein Wasserschaden nach einem Rohrbruch oder einer anderen Leckage ist immer eine
 # Hardware
 Für die mechanische Abschaltung des Hauwassers verwende eine einfache 12 Volt Handbohrmashine mit Drehmomenteinstellung. Ich hatte erst über einen Getriebemotor nachgedacht. Aber die notendige Drehmomentkupplung habe ich nirgends günstig gefunden. Bei Akku-Bohrmschinen ist sie dagegen Standard. Bei der Liste der benötigten Teile ist ein Link zu [Amazon](https://www.amazon.de/Akkuschrauber-Lithium-family-tech-112-Valex-1429400/dp/B077YSQW1Z/ref=sr_1_2?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1KUMVWF6S6XDL&dib=eyJ2IjoiMSJ9.Z7QvFh3QlUaY3Bst_gR_wZVBd-SfqTbajSC_BgjRqhC9G0jxX-8GgQlIj6PsA9FpkYRIf6nCSvTxvuMmvbl0cwmKISCT01ukDAP02i-HGDCRs6VT3XKkeKYSREPxEdd4sIvwhpL-BLVbP30guOHyeorQf7o4_NQMcp3RbCfw2KNzKPWpuJcmjEPzT4dxtL4kZqv5a1wGUhFZN0jt7K9V8wkEEcbxLJpQ0WMfY9RYq-s.1rDC5TaB4mb1_-Yh5tY1ils7tcQ4ryG-p1tPP4Fmbds&dib_tag=se&keywords=12+Volt+akkuschrauber+valex&qid=1748876696&sprefix=12+volt+akkuschrauber+valex%2Caps%2C94&sr=8-2) dabei. Die einfache Bohrmaschine für unter 20 Euro reicht hier aus. 
 
-Die Bohrmaschine wird über ein Kardangelenk und eine Adapterplatte mit dem Handrad des Wasserventils verbunden. Das Kardangelenk soll leichte Achsverschiebungen ausgleichen. Wahrscheinlich würde es auch ohne dieses Gelenk funktionieren.
+Die Bohrmaschine wird über ein Kardangelenk und eine Adapterplatte mit dem Handrad des Wasserventils verbunden. 
+![Kardangelenk](https://m.media-amazon.com/images/W/MEDIAX_1215821-T2/images/I/61abpE65iHL._AC_SL1100_.jpg)
+
+Das Kardangelenk soll leichte Achsverschiebungen ausgleichen. Wahrscheinlich würde es auch ohne dieses Gelenk funktionieren.
 
 Die Adapterplatte und der Befestigungsring sind im Verzeichnis SCAD als OpenSCAD- und STL-Datei vorhanden. Die Adapterplatte sollte für die meisten Handräder passen. Bei Bedarf kann man die Platte aber mit OpenSCAD einfach an das aktuelle Handrad anpassen.
 
