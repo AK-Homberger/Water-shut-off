@@ -281,7 +281,8 @@ Beim Auslösen sollte nun das Wasser abgeschaltet werden und eine E-Mail versend
 
 - Raspberry Pi 4 Kit [Reichelt](https://www.reichelt.de/de/de/shop/produkt/das_reichelt_raspberry_pi_4_b_2_gb_all-in-bundle-263082)
 - SONOFF Zigbee 3.0 USB Dongle [Amazon]([https://www.az-delivery.de/en/products/d1-mini?](https://www.amazon.de/SONOFF-Gateway-CC2652P-Assistant-Zigbee2MQTT/dp/B09KXTCMSC?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A26QA7NDH2SGKH)
-- Valex Akkuschrauber [Amazon]( 
+- Valex Akkuschrauber [Amazon](https://www.amazon.de/Akkuschrauber-Lithium-family-tech-112-Valex-1429400/dp/B077YSQW1Z)
+- Thermohalter (2 Stück) [Alufensterbaenke](https://alufensterbaenke.de/thermohalter)
 
 
 
