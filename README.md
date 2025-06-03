@@ -43,13 +43,13 @@ Als Betriebssystem für ioBroker empfehele ich die OSLite-Version für den Raspb
 
 Für den einfachen Nachbau habe ich alle Kommandos hir aufgeführt. Sie können eineln kopiert und im Raspberry Terminal eingefügt werden. Das spart mühsame Tipperei.
 
-Vor der Intallation der Software sollte der [Sonoff-Zigbee-Adapter](https://sonoff.tech/product/gateway-and-sensors/sonoff-zigbee-3-0-usb-dongle-plus-p/) in eine USB-Buchse eingeteckt werden. 
+Vor der Intallation der Software sollte der [Sonoff-Zigbee-Adapter](https://sonoff.tech/product/gateway-and-sensors/sonoff-zigbee-3-0-usb-dongle-plus-p/) in eine USB-Buchse eingesteckt werden. 
 
 ![Sonoff-Dongle](http://sonoff.tech/wp-content/uploads/2021/09/5-1.jpg)
 
 Wichtig: Es gibt zwei Versionen des Zigbee-Adapters SBDongle-P und ZBDongle-E mit unterschiedlichen Chipsets. Für diese Projekt wird der Dongle "P" mit dem Chipset "CC2652P" benötigt. Der andere sollte auch funktionieren. Es müssen dann aber Einstellungen in der Konfiguration geändert werden.
 
-Für eine bessere Funkverbindung hat es sich bewährt, den Dongle nicht direkt in den Raspberry zu stecken, sondern mit einem USB-Verlängerungskabel etws entfernt vom Raspberry aufzustellen.
+Für eine bessere Funkverbindung hat es sich bewährt, den Dongle nicht direkt in den Raspberry zu stecken, sondern mit einem USB-Verlängerungskabel etwas entfernt vom Raspberry aufzustellen.
 
 ## Installation
 
