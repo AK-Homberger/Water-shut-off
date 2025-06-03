@@ -286,8 +286,7 @@ Beim Auslösen sollte nun das Wasser abgeschaltet werden und eine E-Mail versend
 - Valex Akkuschrauber [Amazon.com](https://www.amazon.de/Akkuschrauber-Lithium-family-tech-112-Valex-1429400/dp/B077YSQW1Z)
 - Thermohalter (2 Stück) [Alufensterbaenke.de](https://alufensterbaenke.de/thermohalter)
 - Kardangelenk [Amzon.com](https://www.amazon.de/bis-Durchmesser-drehbar-Kardangelenk-RC-Modellflugzeug/dp/B00O9YGCKU)
-- 12 Volt 10 A Trafo [Amazon.com](https://www.amazon.de/Netzteil-Adapter-Stromversorgung-Spannungswandler-Transformator/dp/B0D7VM158Z)
-- Krokodilklemmen [Amazon.com]([https://www.amazon.de/St%C3%BCck-Pr%C3%BCfleitungen-Krokodilklemmen-Doppelendige-Messleitung/dp/B0CFQVMMWB)
+- 12 Volt 10 A Trafo [Amazon.com](https://www.amazon.de/Multimeter-Messleitungen-Bananenstecker-Krokodilklemme-Messspitzen/dp/B0D39WQZ9M)
 
 
 
