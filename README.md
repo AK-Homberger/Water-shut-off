@@ -195,9 +195,19 @@ sudo systemctl start zigbee2mqtt
 systemctl status zigbee2mqtt.service
 sudo systemctl enable zigbee2mqtt.service
 ```
-Jetzt kann der Raspberry miz "sudo reboot" neu gestart werden. 
+Jetzt kann der Raspberry mit "sudo reboot" neu gestartet werden. 
 
 ioBroker im Browser öffnen: http://IP-Adresse:8081
+Dann zum Tab Zigbee2MQTT wechseln und den Schalter [Tretakt}(https://www.zigbee2mqtt.io/devices/E22x4.html#ikea-e22x4) und zumindest einen Leckage-Sensor [Badring](https://www.zigbee2mqtt.io/devices/E2202.html#ikea-e2202) hinzufügen. 
+
+![Tretakt](https://www.zigbee2mqtt.io/images/devices/E22x4.png)
+![Badring](https://www.zigbee2mqtt.io/images/devices/E2202.png)
+
+Dazu "Anlernen aktivierne (alle) auswählen. Beim Schalter Tretakt muss zum Pairen die kleine Tste in der Vertiefung unter dem Ein/Aus-Taster für ca. 2 Sekunden gedrückt werden. Beim Sensor Badring befindet sich der Pairing-Taster unter der Batterie-Abdeckung. Der Taster mus virmal hintereinander gedrückt werden.
+
+
+
+
 
 
 
