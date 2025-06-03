@@ -41,7 +41,7 @@ Für die verlässliche Funktion des Systems ist mindestens eine Raspberry 4 mit 
 Zur Vorbereitung der Installation benötigen wir zuerst des "Raspberry Pi Imager" der [hier](https://www.raspberrypi.com/software/) zum Download bereitsteht.
 Als Betriebssystem für ioBroker empfehele ich die OSLite-Version für den Raspberry ohne grafischen Desktop. Die Bedienung von ioBroker und Zigbee2mqtt erfolgt per Browser. Es funktionieren aber auch andere Versionen des Betriebssystems. Zum Schreiben des Betriebssytems auf die SD-Karte wird ein entsprechnder [Adapter](https://www.amazon.de/dp/B00FQFYOM4) benötigt. 
 
-Für den einfachen Nachbau habe ich alle Kommandos hir aufgeführt. Sie können eineln kopiert und im Raspberry Terminal eingefügt werden. Das spart mühsame Tipperei.
+Für den einfachen Nachbau habe ich alle Kommandos hier aufgeführt. Sie können eineln kopiert und im Raspberry Terminal eingefügt werden. Das spart mühsame Tipperei.
 
 Vor der Intallation der Software sollte der [Sonoff-Zigbee-Adapter](https://sonoff.tech/product/gateway-and-sensors/sonoff-zigbee-3-0-usb-dongle-plus-p/) in eine USB-Buchse eingesteckt werden. 
 
