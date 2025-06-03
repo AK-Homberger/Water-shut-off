@@ -287,6 +287,7 @@ Beim Auslösen sollte nun das Wasser abgeschaltet werden und eine E-Mail versend
 - Thermohalter (2 Stück) [Alufensterbaenke.de](https://alufensterbaenke.de/thermohalter)
 - Kardangelenk [Amzon.com](https://www.amazon.de/bis-Durchmesser-drehbar-Kardangelenk-RC-Modellflugzeug/dp/B00O9YGCKU)
 - 12 Volt 10 A Trafo [Amazon.com](https://www.amazon.de/Multimeter-Messleitungen-Bananenstecker-Krokodilklemme-Messspitzen/dp/B0D39WQZ9M)
+- Krokodilklemmen [Amazon.com](https://www.amazon.de/Multimeter-Messleitungen-Bananenstecker-Krokodilklemme-Messspitzen/dp/B0D39WQZ9M)
 
 
 
