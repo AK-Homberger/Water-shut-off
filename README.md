@@ -24,7 +24,7 @@ Die Bohrmaschine wird über ein Kardangelenk und eine Adapterplatte mit dem Hand
 
 Die Adapterplatte und der Befestigungsring sind im Verzeichnis SCAD als OpenSCAD- und STL-Datei vorhanden. Die Adapterplatte sollte für die meisten Handräder passen. Bei Bedarf kann man die Platte aber mit OpenSCAD einfach an das aktuelle Handrad anpassen.
 
-![Adapterplatte](https://github.com/AK-Homberger/Wasserabschalter/blob/main/SCAD/Absperrplatte2.stl) ![Ring](https://github.com/AK-Homberger/Wasserabschalter/blob/main/SCAD/Absperrplatte2-Ring.stl)
+![Adapterplatte](https://github.com/AK-Homberger/Wasserabschalter/blob/main/SCAD/Absperrplatte.stl) ![Ring](https://github.com/AK-Homberger/Wasserabschalter/blob/main/SCAD/Absperrplatte-Ring.stl)
 
 Zur einfachen Montage des Akkuschraubers verwende ich sogenannte [Thermohalter](https://alufensterbaenke.de/thermohalter) für Fensterbänke. 
 
