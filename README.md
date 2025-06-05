@@ -190,7 +190,7 @@ und
 ```
 #WatchdogSec=10s
 ```
-auskommentieren. Ansonsten funktionierte der Start über Systemctl nicht richtig (Abstürze). Der Fehler ist auch bei anderen Usern schon aufgetreten. 
+auskommentieren. Ansonsten funktionierte der Start über Systemctl nicht richtig (Abstürze). Der [Fehler](https://github.com/Koenkk/zigbee2mqtt/issues/21463) ist auch bei anderen Usern schon aufgetreten. 
 
 ```
 sudo systemctl start zigbee2mqtt
