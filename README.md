@@ -89,6 +89,8 @@ Folgende Adapter in ioBroker installieren:
 - Tr-064
 - Zigbee2Mqtt
 
+Dazu einfach jeweils nach Namen Suchen und mit "Info" (drei Punkte Symbol) und "+" Instanz installieren.
+
 Zu "Instanzen" wechseln und Instanzen konfigurieren.
 
 ## Installation Zigbee2Mqtt
