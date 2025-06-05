@@ -81,7 +81,7 @@ installieren.
 
 ioBroker im Browser öffnen: http://IP-Adresse:8081
 
-ioBroker Einstellungen festlegen.
+ioBroker Einstellungen festlegen. Entdecken nicht ausführen.
 
 Folgende Adapter in ioBroker installieren:
 - Email
