@@ -22,6 +22,8 @@ Für die mechanische Abschaltung des Hauwassers verwende eine einfache 12 Volt H
 
 Die Bohrmaschine wird über ein Kardangelenk und eine Adapterplatte mit dem Handrad des Wasserventils verbunden. Das Kardangelenk soll leichte Achsverschiebungen ausgleichen. Wahrscheinlich würde es auch ohne dieses Gelenk funktionieren.
 
+![Adapter](https://github.com/AK-Homberger/Wasserabschalter/blob/main/Bilder/Adapter1.jpg)
+
 Die Adapterplatte und der Befestigungsring sind im Verzeichnis SCAD als OpenSCAD- und STL-Datei vorhanden. Die Adapterplatte sollte für die meisten Handräder passen. Bei Bedarf kann man die Platte aber mit OpenSCAD einfach an das aktuelle Handrad anpassen.
 
 ![Adapterplatte](https://github.com/AK-Homberger/Wasserabschalter/blob/main/SCAD/Adapterplatte.stl) / ![Ring](https://github.com/AK-Homberger/Wasserabschalter/blob/main/SCAD/Befestigungsring.stl)
