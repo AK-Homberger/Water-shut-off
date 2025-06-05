@@ -49,7 +49,7 @@ Für den einfachen Nachbau habe ich alle Kommandos hier aufgeführt. Sie können
 
 Vor der Installation der Software sollte der [Sonoff-Zigbee-Adapter](https://sonoff.tech/product/gateway-and-sensors/sonoff-zigbee-3-0-usb-dongle-plus-p/) in eine USB-Buchse eingesteckt werden. 
 
-![Sonoff-Dongle](http://sonoff.tech/wp-content/uploads/2021/09/5-1.jpg)
+![Sonoff-Dongle](https://github.com/AK-Homberger/Wasserabschalter/blob/main/Bilder/Sonoff-ZigBee-Adapter.jpg)
 
 Wichtig: Es gibt zwei Versionen des Zigbee-Adapters SBDongle-P und ZBDongle-E mit unterschiedlichen Chipsets. Für diese Projekt wird der Dongle "P" mit dem Chipset "CC2652P" benötigt. Der andere sollte auch funktionieren. Es müssen dann aber Einstellungen in der Konfiguration geändert werden.
 
