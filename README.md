@@ -98,8 +98,6 @@ Für "Websocket IP-Address" und "WebUi Address" die eigene IP-Adresse des Raspbe
 
 Und "Create a dummy MQTT-Server for Zigbee2MQTT" auswahlen und Port "1887" angeben. Sonstige Einstellungen belassen und speichern.
 
-
-
 ## Installation Zigbee2Mqtt
 
 Detaillierte Informationen sind hier zu finden: https://www.zigbee2mqtt.io/guide/installation/01_linux.html
@@ -163,6 +161,7 @@ Testen mit:
 ```
 pnpm start
 ```
+Ausführung mit Strg-C abbrechen.
 
 Start als Service:
 
