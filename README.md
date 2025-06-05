@@ -30,7 +30,7 @@ Die Adapterplatte und der Befestigungsring sind im Verzeichnis SCAD als OpenSCAD
 
 Zur einfachen Montage des Akkuschraubers verwende ich sogenannte [Thermohalter](https://alufensterbaenke.de/thermohalter) für Fensterbänke. 
 
-![Halter](https://alufensterbaenke.de/media/catalog/product/cache/2ad09310492482b8dd76867023a48036/0/1/01_thermohalter_anwendung_mg.jpg)
+![Halter](https://github.com/AK-Homberger/Wasserabschalter/blob/main/Bilder/Thermohalter.jpg)
 
 (Quelle: https://alufensterbaenke.de/thermohalter)
 
