@@ -94,9 +94,10 @@ Zum Ändern der Konfiguration nach "Instanzen" wechseln und das Schraubenschlüs
 
 Bei zigbee2mqtt.0:
 
-Für "Websocket IP-Address" die eigene IP-Adresse des Raspberry angeben (Befehl "ifconfig" hilft).
+Für "Websocket IP-Address" und "WebUi Address" die eigene IP-Adresse des Raspberry angeben (Befehl "ifconfig" hilft).
 
 Und "Create a dummy MQTT-Server for Zigbee2MQTT" auswahlen und Port "1887" angeben. Sonstige Einstellungen belassen und speichern.
+
 
 
 ## Installation Zigbee2Mqtt
