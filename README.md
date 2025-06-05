@@ -18,6 +18,8 @@ Ein Wasserschaden nach einem Rohrbruch oder einer anderen Leckage ist immer eine
 # Hardware
 Für die mechanische Abschaltung des Hauwassers verwende ich eine einfache 12 Volt Handbohrmaschine mit Drehmomenteinstellung. Ich hatte erst über einen Getriebemotor nachgedacht. Aber die notendige Drehmomentkupplung habe ich nirgends günstig gefunden. Bei Akku-Bohrmschinen ist sie dagegen Standard. Bei der [Liste der benötigten](https://github.com/AK-Homberger/Wasserabschalter/blob/main/README.md#bezugsquellen) Teile ist ein Link zu [Amazon](https://www.amazon.de/Akkuschrauber-Lithium-family-tech-112-Valex-1429400/dp/B077YSQW1Z) dabei. Die einfache Bohrmaschine für unter 20 Euro reicht hier aus. 
 
+Hier gibt es ein kleines [Video](https://www.dropbox.com/scl/fi/2sde03j0u3wew94bmh6hg/Abschalter.mov?rlkey=7kxjaejoa726u7x39rb6fkuw9&dl=0), das die Funktion zeigt.
+
 Die Bohrmaschine wird über ein Kardangelenk und eine Adapterplatte mit dem Handrad des Wasserventils verbunden. Das Kardangelenk soll leichte Achsverschiebungen ausgleichen. Wahrscheinlich würde es auch ohne dieses Gelenk funktionieren.
 
 ![Adapter](https://github.com/AK-Homberger/Wasserabschalter/blob/main/Bilder/Adapter1.jpg)
