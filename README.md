@@ -208,6 +208,9 @@ sudo systemctl enable zigbee2mqtt.service
 Jetzt kann der Raspberry mit "sudo reboot" neu gestartet werden. 
 
 ioBroker im Browser öffnen: http://IP-Adresse:8081
+
+![Z2M](https://github.com/AK-Homberger/Wasserabschalter/blob/main/Bilder/ioBroker-Zigbee2mqtt.png)
+
 Dann zum Tab Zigbee2MQTT wechseln und den Schalter [Tretakt](https://www.zigbee2mqtt.io/devices/E22x4.html#ikea-e22x4) und zumindest einen Leckage-Sensor [Badring](https://www.zigbee2mqtt.io/devices/E2202.html#ikea-e2202) hinzufügen. 
 
 ![Tretakt](https://www.zigbee2mqtt.io/images/devices/E22x4.png)
