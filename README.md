@@ -92,6 +92,9 @@ Folgende Adapter in ioBroker installieren:
 Dazu einfach jeweils nach Namen Adapter-Suchen und mit "Info" (drei Punkte Symbol) und "+" Instanz installieren und konfigurieren.
 Zum Ändern der Konfiguration nach "Instanzen" wechseln und das Schraubenschlüssel-Symbol auswählen.
 
+Bei zigbee2mqtt.0 
+"Create a dummy MQTT-Server for Zigbee2MQTT" auswahlen und Port "1887" angeben. Sonstige Einstellungen belassen und speichern.
+
 
 ## Installation Zigbee2Mqtt
 
