@@ -182,7 +182,7 @@ User=pi
 WantedBy=multi-user.target
 ```
 Beenden mit Strg-X und Schreiben mit "Y".
-Wegen eines Fehlers bei meiner Raspberry Version (Bookworm) musste ich die Zeilen 
+Wegen fehlender Komponenten bei meiner Raspberry Version (Bookworm) musste ich die Zeilen 
 ```
 #Type=notify
 ```
