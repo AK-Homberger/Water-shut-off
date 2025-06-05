@@ -209,8 +209,6 @@ Jetzt kann der Raspberry mit "sudo reboot" neu gestartet werden.
 
 ioBroker im Browser öffnen: http://IP-Adresse:8081
 
-![Z2M](https://github.com/AK-Homberger/Wasserabschalter/blob/main/Bilder/ioBroker-Zigbee2mqtt.png)
-
 Dann zum Tab Zigbee2MQTT wechseln und den Schalter [Tretakt](https://www.zigbee2mqtt.io/devices/E22x4.html#ikea-e22x4) und zumindest einen Leckage-Sensor [Badring](https://www.zigbee2mqtt.io/devices/E2202.html#ikea-e2202) hinzufügen. 
 
 ![Tretakt](https://www.zigbee2mqtt.io/images/devices/E22x4.png)
@@ -219,6 +217,8 @@ Dann zum Tab Zigbee2MQTT wechseln und den Schalter [Tretakt](https://www.zigbee2
 Dazu "Anlernen aktivieren (alle)" auswählen. Beim Schalter Tretakt muss zum Pairen die kleine Taste in der Vertiefung unter dem Ein/Aus-Taster für ca. 2 Sekunden gedrückt werden. Beim Sensor Badring befindet sich der Pairing-Taster unter der Batterie-Abdeckung. Der Taster mus viermal hintereinander gedrückt werden.
 
 Jetzt sollten die Komponenten in der Liste angezeigt werden.
+
+![Z2M](https://github.com/AK-Homberger/Wasserabschalter/blob/main/Bilder/ioBroker-Zigbee2mqtt.png)
 
 Im nächsten Schritt erstellen wir das Script zum steueren des Akkuschraubers und zur Benachrichtigung.
 
