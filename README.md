@@ -32,7 +32,7 @@ Zur einfachen Montage des Akkuschraubers verwende ich sogenannte [Thermohalter](
 
 ![Halter](https://alufensterbaenke.de/media/catalog/product/cache/2ad09310492482b8dd76867023a48036/0/1/01_thermohalter_anwendung_mg.jpg)
 
-Der Vorteil dieser Lösung ist der variable Abstand zur Wand, der einfach durch kürzen der Alu-Profile auf die benötigte Länge erfolgt.
+Einfach zwei dieser Halter so ineinanderschieben, dass sich ein viereckiger Kasten ergibt. Der Vorteil dieser Lösung ist der variable Abstand zur Wand, der einfach durch kürzen der Alu-Profile auf die benötigte Länge erfolgt.
 
 # Software
 Die Steuerung des Wasserabschalters erfolgt mit einem Raspberry und zwei Software-Komponenten. Einmal dem Smarthome-System [ioBroker](https://www.iobroker.net/) und zum Zweiten die Software [Zigbee2Mqtt](https://github.com/Koenkk/zigbee2mqtt). ioBroker übernimmt dabei die Automatisierung per Script und Zigbee2mqtt die Anbindung der Ikea Zigbee-Komponenten Tertakt (Schalte) und Bdring (Leckage Detektor).
