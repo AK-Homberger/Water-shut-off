@@ -32,8 +32,6 @@ Zur einfachen Montage des Akkuschraubers verwende ich sogenannte [Thermohalter](
 
 ![Halter](https://github.com/AK-Homberger/Wasserabschalter/blob/main/Bilder/Thermohalter.jpg)
 
-(Quelle: https://alufensterbaenke.de/thermohalter)
-
 Einfach zwei dieser Halter so ineinanderschieben, dass sich ein viereckiger Kasten ergibt. Der Vorteil dieser Lösung ist der variable Abstand zur Wand, der einfach durch kürzen der Alu-Profile auf die benötigte Länge erfolgt.
 
 # Software
