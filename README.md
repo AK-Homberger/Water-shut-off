@@ -222,7 +222,7 @@ Jetzt sollten die Komponenten in der Liste angezeigt werden.
 
 Im nächsten Schritt erstellen wir das Script zum Steuern des Akkuschraubers und zur Benachrichtigung.
 
-Dazu links im ioBroker-Menü "Scripte" auswählen und ein neues Script mit "+" erzeugen und "JS" für Javascrit anklicken. Als Namen "Wasserabschalter" wählen. Dann den folgenden Text einfügen:
+Dazu links im ioBroker-Menü "Scripte" auswählen und ein neues Script mit "+" erzeugen und "JS" für Javascript anklicken. Als Namen "Wasserabschalter" wählen. Dann den folgenden Text einfügen:
 
 ```
 var OffTime = 3; // Zeit zum Abdrehen in Sekunden
