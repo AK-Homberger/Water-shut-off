@@ -209,7 +209,7 @@ Jetzt kann der Raspberry mit "sudo reboot" neu gestartet werden.
 
 ioBroker im Browser öffnen: http://IP-Adresse:8081
 
-Dann zum Tab Zigbee2MQTT wechseln und den Schalter [TRERTAKT](https://www.zigbee2mqtt.io/devices/E22x4.html#ikea-e22x4) und zumindest einen Leckage-Sensor [BADRING](https://www.zigbee2mqtt.io/devices/E2202.html#ikea-e2202) hinzufügen. 
+Dann zum Tab Zigbee2MQTT wechseln und den Schalter [TRETAKT](https://www.zigbee2mqtt.io/devices/E22x4.html#ikea-e22x4) und zumindest einen Leckage-Sensor [BADRING](https://www.zigbee2mqtt.io/devices/E2202.html#ikea-e2202) hinzufügen. 
 
 ![Tretakt](https://www.zigbee2mqtt.io/images/devices/E22x4.png)
 ![Badring](https://www.zigbee2mqtt.io/images/devices/E2202.png)
