@@ -45,7 +45,7 @@ Als Betriebssystem für ioBroker empfehele ich die OSLite-Version für den Raspb
 
 Für den einfachen Nachbau habe ich alle Kommandos hier aufgeführt. Sie können eineln kopiert und im Raspberry Terminal eingefügt werden. Das spart mühsame Tipperei.
 
-Vor der Installation der Software sollte der [Sonoff-ZigBee-Adapter](https://sonoff.tech/product/gateway-and-sensors/sonoff-zigbee-3-0-usb-dongle-plus-p/) in eine USB-Buchse eingesteckt werden. 
+Vor der Installation der Software sollte der [Sonoff ZigBee-Adapter](https://sonoff.tech/product/gateway-and-sensors/sonoff-zigbee-3-0-usb-dongle-plus-p/) in eine USB-Buchse eingesteckt werden. 
 
 ![Sonoff-Dongle](https://github.com/AK-Homberger/Wasserabschalter/blob/main/Bilder/Sonoff-ZigBee-Adapter.jpg)
 
