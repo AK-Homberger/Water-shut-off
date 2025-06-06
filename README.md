@@ -28,7 +28,7 @@ Die Adapterplatte und der Befestigungsring sind im Verzeichnis SCAD als OpenSCAD
 
 ![Adapterplatte](https://github.com/AK-Homberger/Wasserabschalter/blob/main/SCAD/Adapterplatte.stl) / ![Ring](https://github.com/AK-Homberger/Wasserabschalter/blob/main/SCAD/Befestigungsring.stl)
 
-## Wichtig! Nichtsteigende Spindel
+### Wichtig! Nichtsteigende Spindel
 Die Abschaltung funktioniert nur bei Ventilen mit ["nicht-steigender"](https://www.gep24.de/installation/ventile/schraegsitzventil/nicht-steigende-spindel/) Spindel. Bei Ventilen mit "steigender" Spindel dreht sich die Welle des Handrads beim Absperren in das Ventil hinein. Dadurch würde sich der Abstand zur Bohrmaschine stetig vergrößern, bis keine Verbindung mehr gegeben ist. Daher vorher prüfen, ob ein Ventil mit "nicht-steigender" Spindel verbaut ist. Die Ventile/Oberteile kann man auch einfach wechseln. Der lokale Installateur kann hier bei Bedarf helfen.
 
 Zur einfachen Montage des Akkuschraubers verwende ich sogenannte [Thermohalter](https://alufensterbaenke.de/thermohalter) für Fensterbänke. 
