@@ -45,11 +45,11 @@ Als Betriebssystem für ioBroker empfehele ich die OSLite-Version für den Raspb
 
 Für den einfachen Nachbau habe ich alle Kommandos hier aufgeführt. Sie können eineln kopiert und im Raspberry Terminal eingefügt werden. Das spart mühsame Tipperei.
 
-Vor der Installation der Software sollte der [Sonoff-Zigbee-Adapter](https://sonoff.tech/product/gateway-and-sensors/sonoff-zigbee-3-0-usb-dongle-plus-p/) in eine USB-Buchse eingesteckt werden. 
+Vor der Installation der Software sollte der [Sonoff-ZigBee-Adapter](https://sonoff.tech/product/gateway-and-sensors/sonoff-zigbee-3-0-usb-dongle-plus-p/) in eine USB-Buchse eingesteckt werden. 
 
 ![Sonoff-Dongle](https://github.com/AK-Homberger/Wasserabschalter/blob/main/Bilder/Sonoff-ZigBee-Adapter.jpg)
 
-Wichtig: Es gibt zwei Versionen des Zigbee-Adapters SBDongle-P und ZBDongle-E mit unterschiedlichen Chipsets. Für diese Projekt wird der Dongle "P" mit dem Chipset "CC2652P" benötigt. Der andere sollte auch funktionieren. Es müssen dann aber Einstellungen in der Konfiguration geändert werden.
+Wichtig: Es gibt zwei Versionen des ZigBee-Adapters SBDongle-P und ZBDongle-E mit unterschiedlichen Chipsets. Für diese Projekt wird der Dongle "P" mit dem Chipset "CC2652P" benötigt. Der andere sollte auch funktionieren. Es müssen dann aber Einstellungen in der Konfiguration geändert werden.
 
 Für eine bessere Funkverbindung hat es sich bewährt, den Dongle nicht direkt in den Raspberry zu stecken, sondern mit einem USB-Verlängerungskabel etwas entfernt vom Raspberry aufzustellen.
 
@@ -281,7 +281,7 @@ on({id: Schalter}, async function (obj) {
 });
 ```
 
-Im Script müssen noch die eindeutigen Bezeichnungen der Zigbee-Komponenten "Schalter" und "Sensor_1/2" angepasst werden. 
+Im Script müssen noch die eindeutigen Bezeichnungen der ZigBee-Komponenten "Schalter" und "Sensor_1/2" angepasst werden. 
 Die richtigen Bezeichnungen können mit der Funktion "Objekt-ID einfügen" oben rechts mit dem Klemmbrett-Symbol herausgefunden und eingefügt werden.
 Auch die "Telefonnummer" muss noch angepasst werden.
 
@@ -301,8 +301,3 @@ Beim Auslösen sollte nun das Wasser abgeschaltet werden und eine E-Mail versend
 - Kardangelenk [Amzon.com](https://www.amazon.de/bis-Durchmesser-drehbar-Kardangelenk-RC-Modellflugzeug/dp/B00O9YGCKU)
 - 12 Volt 10 A Trafo [Amazon.com](https://www.amazon.de/Netzteil-Spannungswandler-Netzadapter-Transformator-Stromversorgung-schwarz/dp/B0D9S8N8TT)
 - Krokodilklemmen [Amazon.com](https://www.amazon.de/Multimeter-Messleitungen-Bananenstecker-Krokodilklemme-Messspitzen/dp/B0D39WQZ9M)
-
-
-
-
-
