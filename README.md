@@ -6,14 +6,14 @@ Ein Wasserschaden nach einem Rohrbruch oder einer anderen Leckage ist immer eine
 
 ## Kurzinfo
 - Hauswasserabschaltung über Akkuschrauber mit Drehmomenteinstellung
-- Lekageerkennung über Ikea ZibBee-Wasserdetektor BADRING
-- Ansteuerung des Akkuschraubers über Ikea Zigbee-Schalter TRETAKT
+- Lekageerkennung über Ikea ZigBee-Wasserdetektor BADRING
+- Ansteuerung des Akkuschraubers über Ikea ZigBee-Schalter TRETAKT
 - Beliebig viele Sensoren integrierbar
 - Adapterplatte für Handrad als 3D-Druck-Vorlage (anpassbar)
 - Kardangelenk als Achsausgleich
 - Alarmierung per E-Mail und Telefonanruf (erfordert Fritzbox)
 - Steuerung über Script in IoBroker auf einem Raspberry. 
-- ZigBee-Integration in ioBroker über ZigBee2MQTT.
+- ZigBee-Integration in ioBroker über Zigbee2MQTT.
 
 # Hardware
 Für die mechanische Abschaltung des Hauwassers verwende ich eine einfache 12 Volt Handbohrmaschine mit Drehmomenteinstellung. Ich hatte erst über einen Getriebemotor nachgedacht. Aber die notendige Drehmomentkupplung habe ich nirgends günstig gefunden. Bei Akku-Bohrmschinen ist sie dagegen Standard. Bei der [Liste der benötigten](https://github.com/AK-Homberger/Wasserabschalter/blob/main/README.md#bezugsquellen) Teile ist ein Link zu [Amazon](https://www.amazon.de/Akkuschrauber-Lithium-family-tech-112-Valex-1429400/dp/B077YSQW1Z) dabei. Die einfache Bohrmaschine für unter 20 Euro reicht hier aus. 
