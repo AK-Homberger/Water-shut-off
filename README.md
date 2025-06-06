@@ -214,15 +214,15 @@ Dann zum Tab Zigbee2MQTT wechseln und den Schalter [TRETAKT](https://www.zigbee2
 ![Tretakt](https://www.zigbee2mqtt.io/images/devices/E22x4.png)
 ![Badring](https://www.zigbee2mqtt.io/images/devices/E2202.png)
 
-Dazu "Anlernen aktivieren (alle)" auswählen. Beim Schalter Tretakt muss zum Pairen die kleine Taste in der Vertiefung unter dem Ein/Aus-Taster für ca. 2 Sekunden gedrückt werden. Beim Sensor Badring befindet sich der Pairing-Taster unter der Batterie-Abdeckung. Der Taster mus viermal hintereinander gedrückt werden.
+Dazu "Anlernen aktivieren (alle)" auswählen. Beim Schalter TRETAKT muss zum Pairen die kleine Taste in der Vertiefung unter dem Ein/Aus-Taster für ca. 2 Sekunden gedrückt werden. Beim Sensor BADRING befindet sich der Pairing-Taster unter der Batterie-Abdeckung. Der Taster mus viermal hintereinander gedrückt werden.
 
 Jetzt sollten die Komponenten in der Liste angezeigt werden.
 
 ![Z2M](https://github.com/AK-Homberger/Wasserabschalter/blob/main/Bilder/ioBroker-Zigbee2mqtt.png)
 
-Im nächsten Schritt erstellen wir das Script zum steueren des Akkuschraubers und zur Benachrichtigung.
+Im nächsten Schritt erstellen wir das Script zum Steuern des Akkuschraubers und zur Benachrichtigung.
 
-Dazu links im ioBroker-Menü "Scripte" auswählen und ein neues Script mit "+" erzeugen. Als Namen "Wasserabschalter" wählen. Dann den folgenden Text einfügen:
+Dazu links im ioBroker-Menü "Scripte" auswählen und ein neues Script mit "+" erzeugen und "JS" für Javascrit anklicken. Als Namen "Wasserabschalter" wählen. Dann den folgenden Text einfügen:
 
 ```
 var OffTime = 3; // Zeit zum Abdrehen in Sekunden
