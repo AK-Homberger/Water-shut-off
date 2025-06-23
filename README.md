@@ -193,13 +193,13 @@ Exit with Ctrl-X and write with "Y". Due to missing components in my Raspberry v
 ```
 #Type=notify
 ```
-und
+and
 ```
 #WatchdogSec=10s
 ```
 Otherwise, starting via Systemctl didn't work properly (crashes). Other users have also encountered this [error](https://github.com/Koenkk/zigbee2mqtt/issues/21463). 
 
-Now start ther servic and check status. If status OK (runninG) enable atomatic start after re-boot.
+Now start ther servic and check status. If status OK enable atomatic start after re-boot.
 ```
 sudo systemctl start zigbee2mqtt
 systemctl status zigbee2mqtt.service
