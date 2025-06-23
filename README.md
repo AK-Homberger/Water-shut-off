@@ -16,7 +16,7 @@ A water damage following a burst pipe or other leak is always unpleasant. Especi
 - ZigBee integration in ioBroker via Zigbee2MQTT. 
 
 # Hardware
-For the mechanical shut-off of the domestic water, I use a simple 12-volt hand drill with a torque setting. I had initially considered using a gear motor. But I couldn't find the necessary torque clutch anywhere at a reasonable price. It's standard on cordless drills, however. The [list of parts](https://github.com/AK-Homberger/Wasserabschalter/blob/main/README.md#bezugsquellen) includes a link to [Amazon](https://www.amazon.de/Akkuschrauber-Lithium-family-tech-112-Valex-1429400/dp/B077YSQW1Z). A simple drill for under €20 is sufficient here.
+For the mechanical shut-off of the domestic water, I use a simple 12-volt hand drill with a torque setting. I had initially considered using a gear motor. But I couldn't find the necessary torque clutch anywhere at a reasonable price. It's standard on cordless drills, however. The [list of parts](https://github.com/AK-Homberger/Wasserabschalter/blob/main/README.md#sources)) includes a link to [Amazon](https://www.amazon.de/Akkuschrauber-Lithium-family-tech-112-Valex-1429400/dp/B077YSQW1Z). A simple drill for under €20 is sufficient here.
 
 Here is a short [video](https://www.dropbox.com/scl/fi/2sde03j0u3wew94bmh6hg/Abschalter.mov?rlkey=7kxjaejoa726u7x39rb6fkuw9&dl=0), that shows the function.
 
