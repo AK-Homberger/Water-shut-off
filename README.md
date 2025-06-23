@@ -1,71 +1,71 @@
-# Wasserabschalter mit ZigBee und ioBroker
+# Water leakage shut-off with ZigBee and ioBroker
 
-Ein Wasserschaden nach einem Rohrbruch oder einer anderen Leckage ist immer eine unangenehme Sache. Speziell wenn dies im Urlaub passiert und niemand den Schaden bemerkt, und das Wasser einfach weiter fließt. Abhilfe schafft hier ein einfaches Projekt zur Abschaltung des Hauswasseranschlusses beim Erkennen einer Leckage. Die Erkennung erfolgt mit dem Ikea Wasserdetektor BADRING und die Abschaltung erfolgt mit einem 12 Volt-Akkuschrauber, der über einen Ikea Schalter TRETAKT geschaltet wird. Die Logik und Alarmierung habe ich mit dem Smarthome-System ioBroker und dem ZigBee-Software Zigbee2MQTT realisiert. Mittels ioBroker erfolgt auch die Benachrichtigung per E-Mail und der Anruf auf das Mobiltelefon. Somit steht einem entspannten Urlaub nichts mehr im Wege.
+A water damage following a burst pipe or other leak is always unpleasant. Especially when it happens while you're on vacation and no one notices the damage, but the water just keeps flowing. A simple project to shut off the house's water supply when a leak is detected can help. The detection is done with the Ikea BADRING water detector, and the shutdown is done with a 12-volt cordless screwdriver controlled by an Ikea TRETAKT switch. I implemented the logic and alarm system using the ioBroker smart home system and the ZigBee software Zigbee2MQTT. ioBroker also sends notifications via email and calls to your mobile phone. 
 
-![Abschalter](https://github.com/AK-Homberger/Wasserabschalter/blob/main/Bilder/Aufmacher1.jpg)
+![Shut-off](https://github.com/AK-Homberger/Wasserabschalter/blob/main/Bilder/Aufmacher1.jpg)
 
-## Kurzinfo
-- Hauswasserabschaltung über Akkuschrauber mit Drehmomenteinstellung
-- Lekageerkennung über Ikea ZigBee-Wasserdetektor BADRING
-- Ansteuerung des Akkuschraubers über Ikea ZigBee-Schalter TRETAKT
-- Beliebig viele Sensoren integrierbar
-- Adapterplatte für Handrad als 3D-Druck-Vorlage (anpassbar)
-- Kardangelenk als Achsausgleich
-- Alarmierung per E-Mail und Telefonanruf (erfordert Fritzbox)
-- Steuerung über Script in IoBroker auf einem Raspberry. 
-- ZigBee-Integration in ioBroker über Zigbee2MQTT.
+## Summary
+- Domestic water shut-off via cordless screwdriver with torque adjustment 
+- Leakage detection via Ikea ZigBee water detector BADRING 
+- Control of the cordless screwdriver via Ikea ZigBee switch TRETAKT 
+- Any number of sensors can be integrated 
+- Adapter plate for handwheel as 3D printing template (customizable) 
+- Cardan joint as axis shift compensation 
+- Alerts via email and phone call (requires Fritzbox) 
+- Control via script in IoBroker on a Raspberry. 
+- ZigBee integration in ioBroker via Zigbee2MQTT. 
 
 # Hardware
-Für die mechanische Abschaltung des Hauwassers verwende ich eine einfache 12 Volt Handbohrmaschine mit Drehmomenteinstellung. Ich hatte erst über einen Getriebemotor nachgedacht. Aber die notendige Drehmomentkupplung habe ich nirgends günstig gefunden. Bei Akku-Bohrmschinen ist sie dagegen Standard. Bei der [Liste der benötigten](https://github.com/AK-Homberger/Wasserabschalter/blob/main/README.md#bezugsquellen) Teile ist ein Link zu [Amazon](https://www.amazon.de/Akkuschrauber-Lithium-family-tech-112-Valex-1429400/dp/B077YSQW1Z) dabei. Die einfache Bohrmaschine für unter 20 Euro reicht hier aus. 
+For the mechanical shut-off of the domestic water, I use a simple 12-volt hand drill with a torque setting. I had initially considered using a gear motor. But I couldn't find the necessary torque clutch anywhere at a reasonable price. It's standard on cordless drills, however. The [list of parts](https://github.com/AK-Homberger/Wasserabschalter/blob/main/README.md#bezugsquellen) includes a link to [Amazon](https://www.amazon.de/Akkuschrauber-Lithium-family-tech-112-Valex-1429400/dp/B077YSQW1Z). A simple drill for under €20 is sufficient here.
 
-Hier gibt es ein kleines [Video](https://www.dropbox.com/scl/fi/2sde03j0u3wew94bmh6hg/Abschalter.mov?rlkey=7kxjaejoa726u7x39rb6fkuw9&dl=0), das die Funktion zeigt.
+Here is a short [video](https://www.dropbox.com/scl/fi/2sde03j0u3wew94bmh6hg/Abschalter.mov?rlkey=7kxjaejoa726u7x39rb6fkuw9&dl=0), that shows the function.
 
-Die Bohrmaschine wird über ein Kardangelenk und eine Adapterplatte mit dem Handrad des Wasserventils verbunden. Das Kardangelenk soll leichte Achsverschiebungen ausgleichen. Wahrscheinlich würde es auch ohne dieses Gelenk funktionieren.
+The drill is connected to the water valve's handwheel via a universal joint and an adapter plate. The universal joint is designed to compensate for slight axis shifts. It would probably work without this joint as well.
 
 ![Adapter](https://github.com/AK-Homberger/Wasserabschalter/blob/main/Bilder/Adapter1.jpg)
 
-Die Adapterplatte und der Befestigungsring sind im Verzeichnis SCAD als OpenSCAD- und STL-Datei vorhanden. Die Adapterplatte sollte für die meisten Handräder passen. Bei Bedarf kann man die Platte aber mit OpenSCAD einfach an das aktuelle Handrad anpassen.
+The adapter plate and mounting ring are available in the SCAD directory as OpenSCAD and STL files. The adapter plate should fit most handwheels. However, if necessary, the plate can easily be adapted to the current handwheel using OpenSCAD. 
 
 ![Adapterplatte](https://github.com/AK-Homberger/Wasserabschalter/blob/main/SCAD/Adapterplatte.stl) / ![Ring](https://github.com/AK-Homberger/Wasserabschalter/blob/main/SCAD/Befestigungsring.stl)
 
-### Wichtig! Nichtsteigende Spindel
-Die Abschaltung funktioniert nur bei Ventilen mit ["nicht-steigender"](https://www.gep24.de/installation/ventile/schraegsitzventil/nicht-steigende-spindel/) Spindel. Bei Ventilen mit "steigender" Spindel dreht sich die Welle des Handrads beim Absperren in das Ventil hinein. Dadurch würde sich der Abstand zur Bohrmaschine stetig vergrößern, bis keine Verbindung mehr gegeben ist. Daher vorher prüfen, ob ein Ventil mit "nicht-steigender" Spindel verbaut ist. Die Ventile/Oberteile kann man auch einfach wechseln. Der lokale Installateur kann hier bei Bedarf helfen.
+### Important! Non-rising spindle
+The shutoff only works with valves with a ["non-rising"](https://www.gep24.de/installation/ventile/schraegsitzventil/nicht-steigende-spindel/) spindel. With valves with a "rising" spindle, the handwheel shaft rotates into the valve when shutting off. This would cause the distance to the drill to steadily increase until there is no longer any connection. Therefore, check beforehand whether a valve with a "non-rising" spindle is installed. The valves/upper parts can also be easily replaced. Your local plumber can help with this if necessary.
 
-Zur einfachen Montage des Akkuschraubers verwende ich sogenannte [Thermohalter](https://alufensterbaenke.de/thermohalter) für Fensterbänke. 
+To easily mount the cordless screwdriver, I use so-called [Thermohalter](https://alufensterbaenke.de/thermohalter) for window sills.
 
 ![Halter](https://github.com/AK-Homberger/Wasserabschalter/blob/main/Bilder/Thermohalter.jpg)
 
-Einfach zwei dieser Halter so ineinanderschieben, dass sich ein viereckiger Kasten ergibt. Der Vorteil dieser Lösung ist der variable Abstand zur Wand, der einfach durch kürzen der Alu-Profile auf die benötigte Länge erfolgt.
+Simply slide two of these brackets together to create a square box. The advantage of this solution is the variable distance from the wall, which can be easily adjusted by shortening the aluminum profiles to the required length. 
 
 # Software
-Die Steuerung des Wasserabschalters erfolgt mit einem Raspberry und zwei Software-Komponenten. Einmal dem Smarthome-System [ioBroker](https://www.iobroker.net/) und zum Zweiten die Software [Zigbee2Mqtt](https://github.com/Koenkk/zigbee2mqtt). ioBroker übernimmt dabei die Automatisierung per Script und Zigbee2mqtt die Anbindung der Ikea ZigBee-Komponenten TRETAKT (Schalter) und BADRING (Leckage-Detektor).
+The water shut-off switch is controlled using a Raspberry Pi and two software components: the [ioBroker](https://www.iobroker.net/) smart home system and the [Zigbee2Mqtt](https://github.com/Koenkk/zigbee2mqtt) software. ioBroker handles automation via script, and Zigbee2Mqtt connects the Ikea ZigBee components TRETAKT (switch) and BADRING (leakage detector).
 
-Für die verlässliche Funktion des Systems ist mindestens ein Raspberry 4 mit 2 GB RAM erforderlich. Ein komplettes Bundle ist zum Beispiel [hier](https://www.reichelt.de/de/de/shop/produkt/das_reichelt_raspberry_pi_4_b_2_gb_all-in-bundle-263082?PROVID=2788&gQT=2) verfügbar.
+For reliable operation of the system, at least a Raspberry 4 with 2 GB of RAM is required. A complete bundle is available [here](https://www.reichelt.de/de/de/shop/produkt/das_reichelt_raspberry_pi_4_b_2_gb_all-in-bundle-263082?PROVID=2788&gQT=2), for example.
 
-## Installation Raspberry OS und ioBroker
-Zur Vorbereitung der Installation benötigen wir zuerst des "Raspberry Pi Imager" der [hier](https://www.raspberrypi.com/software/) zum Download bereitsteht.
-Als Betriebssystem für ioBroker empfehele ich die OSLite-Version für den Raspberry ohne grafischen Desktop. Die Bedienung von ioBroker und Zigbee2mqtt erfolgt per Browser. Es funktionieren aber auch andere Versionen des Betriebssystems. Zum Schreiben des Betriebssytems auf die SD-Karte wird ein entsprechnder [Adapter](https://www.amazon.de/dp/B00FQFYOM4) benötigt. 
+## Installing Raspberry OS and ioBroker
+To prepare the installation, you first need the "Raspberry Pi Imager," which is available for download [here](https://www.raspberrypi.com/software/).
 
-Für den einfachen Nachbau habe ich alle Kommandos hier aufgeführt. Sie können eineln kopiert und im Raspberry Terminal eingefügt werden. Das spart mühsame Tipperei.
+As the operating system for ioBroker, I recommend the OSLite version for the Raspberry Pi without a graphical desktop. ioBroker and Zigbee2mqtt are operated via a browser. However, other versions of the operating system will also work. 
 
-Vor der Installation der Software sollte der [Sonoff ZigBee-Adapter](https://sonoff.tech/product/gateway-and-sensors/sonoff-zigbee-3-0-usb-dongle-plus-p/) in eine USB-Buchse eingesteckt werden. 
+For easy replication, I've listed all the commands here. They can be copied and pasted into the Raspberry Terminal. 
+
+Before installing the software, the [Sonoff ZigBee-Adapter](https://sonoff.tech/product/gateway-and-sensors/sonoff-zigbee-3-0-usb-dongle-plus-p/) should be plugged into a USB port.
 
 ![Sonoff-Dongle](https://github.com/AK-Homberger/Wasserabschalter/blob/main/Bilder/Sonoff-ZigBee-Adapter.jpg)
 
-Wichtig: Es gibt zwei Versionen des ZigBee-Adapters SBDongle-P und ZBDongle-E mit unterschiedlichen Chipsets. Für diese Projekt wird der Dongle "P" mit dem Chipset "CC2652P" benötigt. Der andere sollte auch funktionieren. Es müssen dann aber Einstellungen in der Konfiguration geändert werden.
-
-Für eine bessere Funkverbindung hat es sich bewährt, den Dongle nicht direkt in den Raspberry zu stecken, sondern mit einem USB-Verlängerungskabel etwas entfernt vom Raspberry aufzustellen.
+Important: There are two versions of the ZigBee adapter, SBDongle-P and ZBDongle-E, with different chipsets. For this project, the "P" dongle with the "CC2652P" chipset is required. The other version should also work. However, some configuration settings will need to be changed.
+For a better wireless connection, it has proven useful not to plug the dongle directly into the Raspberry, but to place it some distance away from the Raspberry using a USB extension cable.
 
 ## Installation
 
-- Rapberry Imager als Administrator starten (zumindest unter Windows 11; ansonsten sperrt der Virenschutz das Kopieren einiger Komponenten)
-- 64 Bit OSLite auswählen
-- Hostname und Passwort festlegen
-- SD-Karte auswählen und Imge schreiben
+- Start Rapberry Imager as administrator (at least under Windows 11; otherwise, the antivirus will block copying of some components)
+- Select 64-bit OSLite
+- Set hostname and password
+- Select SD card and write image
+- Insert SD card into Raspberry and start
+- Log in. Either locally with keyboard and screen or via SSH. Find out the IP address via the router! I recommend using [Putty](https://www.putty.org/) as an SSH client.
 
-- SD-Karte in Raspberry einlegen und starten
-- Einloggen. Entweder lokal mit Tastatur und Bildschirm oder per SSH. IP-Adresse über den Router herausfinden! Als SSH-Client empfehle ich [Putty](https://www.putty.org/)
-
+Update Raspberry OS first:
 ```
 sudo apt update
 sudo apt upgrade
@@ -73,37 +73,33 @@ sudo apt upgrade
 sudo raspi-config - Filesystem expand und Logging aus.
 ```
 
-ioBroker mit : 
+Install ioBroker with: 
 ```
 curl -sLf https://iobroker.net/install.sh | bash - 
 ```
 
-installieren.
 
-ioBroker im Browser öffnen: http://IP-Adresse:8081
+Open ioBroker in your browser: http://IP-Adresse:8081
 
-ioBroker Einstellungen festlegen. Entdecken nicht ausführen.
+Set basic ioBroker settings. Do not run Discover.
 
-Folgende Adapter in ioBroker installieren:
+Install the following adapters in ioBroker:
 - Email
 - Javascript
 - Tr-064
 - Zigbee2Mqtt
 
-Dazu einfach jeweils nach den Namen der Adapter suchen und mit "Info" (drei Punkte Symbol) und "+" die Instanz installieren und konfigurieren.
-Zum Ändern der Konfiguration nach "Instanzen" wechseln und das Schraubenschlüssel-Symbol auswählen.
+To do this, simply search for the adapter names and install and configure the instance using "Info" (three dots icon) and "+." To change the configuration, go to "Instances" and select the wrench icon.
 
-Bei zigbee2mqtt.0:
-
-Für "Websocket IP-Address" und "WebUi Address" die eigene IP-Adresse des Raspberry angeben (Befehl "ifconfig" hilft).
-
-Und "Create a dummy MQTT-Server for Zigbee2MQTT" auswahlen und Port "1887" angeben. Sonstige Einstellungen belassen und speichern.
+Configure zigbee2mqtt.0:
+For "Websocket IP Address" and "WebUi Address" specify the Raspberry's own IP address (command "ifconfig" helps).
+Select "Create a dummy MQTT server for Zigbee2MQTT" and specify port "1887." Leave the other settings as they are and save.
 
 ## Installation Zigbee2Mqtt
 
-Detaillierte Informationen sind hier zu finden: https://www.zigbee2mqtt.io/guide/installation/01_linux.html
+Detailed information can be found here: https://www.zigbee2mqtt.io/guide/installation/01_linux.html
 
-Die folgenden Befehle reichen aber aus:
+However, the following commands are sufficient:
 ```
 sudo curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
 sudo apt install -y nodejs git make g++ gcc libsystemd-dev
@@ -118,12 +114,12 @@ cd /opt/zigbee2mqtt
 pnpm i --frozen-lockfile
 ```
 
-Datei "configuration.yaml" anpassen:
+Adjust the "configuration.yaml" file: 
 
 ```
 nano /opt/zigbee2mqtt/data/configuration.yaml
 ```
-Folgenden Text einfügen:
+Insert the following text: 
 ```
 homeassistant:
   enabled: false
@@ -156,21 +152,22 @@ availability:
   passive:
     timeout: 1500
 ```
-Beenden mit Strg-X und Schreiben mit "Y".
+Exit with Ctrl-X and write with "Y".
 
-Testen mit: 
+Test with:
 ```
 pnpm start
 ```
-Ausführung mit Strg-C abbrechen.
+Cancel execution with Ctrl-C.
 
-Start als Service:
+Start as a service:
 
-Editor starten und Datei "zigbee2mqtt.service" mit folgendem Inhalt erzeugen.
+Start the editor and create the file "zigbee2mqtt.service" with the following content.
+
 ```
 sudo nano /etc/systemd/system/zigbee2mqtt.service
 ```
-Folgenden Text einfügen:
+Insert the following text: 
 ```
 [Unit]
 Description=zigbee2mqtt
@@ -192,8 +189,7 @@ User=pi
 [Install]
 WantedBy=multi-user.target
 ```
-Beenden mit Strg-X und Schreiben mit "Y".
-Wegen fehlender Komponenten bei meiner Raspberry Version (Bookworm) musste ich die Zeilen 
+Exit with Ctrl-X and write with "Y". Due to missing components in my Raspberry version (Bookworm), I had to comment out:
 ```
 #Type=notify
 ```
@@ -201,31 +197,32 @@ und
 ```
 #WatchdogSec=10s
 ```
-auskommentieren. Ansonsten funktionierte der Start über Systemctl nicht richtig (Abstürze). Der [Fehler](https://github.com/Koenkk/zigbee2mqtt/issues/21463) ist auch bei anderen Usern schon aufgetreten. 
+Otherwise, starting via Systemctl didn't work properly (crashes). Other users have also encountered this [error](https://github.com/Koenkk/zigbee2mqtt/issues/21463). 
 
+Now start ther servic and check status. If status OK (runninG) enable atomatic start after re-boot.
 ```
 sudo systemctl start zigbee2mqtt
 systemctl status zigbee2mqtt.service
 sudo systemctl enable zigbee2mqtt.service
 ```
-Jetzt kann der Raspberry mit "sudo reboot" neu gestartet werden. 
+Now the Raspberry can be restarted with "sudo reboot".
 
-ioBroker im Browser öffnen: http://IP-Adresse:8081
+Open ioBroker in your browser: http://IP-Adresse:8081
 
-Dann zum Tab Zigbee2MQTT wechseln und den Schalter [TRETAKT](https://www.zigbee2mqtt.io/devices/E22x4.html#ikea-e22x4) und zumindest einen Leckage-Sensor [BADRING](https://www.zigbee2mqtt.io/devices/E2202.html#ikea-e2202) hinzufügen. 
+Then switch to the Zigbee2MQTT tab and add the [TRETAKT](https://www.zigbee2mqtt.io/devices/E22x4.html#ikea-e22x4) switch and at leats one leakage sensor [BADRING](https://www.zigbee2mqtt.io/devices/E2202.html#ikea-e2202). 
 
 ![Tretakt](https://www.zigbee2mqtt.io/images/devices/E22x4.png)
 ![Badring](https://www.zigbee2mqtt.io/images/devices/E2202.png)
 
-Dazu "Anlernen aktivieren (alle)" auswählen. Beim Schalter TRETAKT muss zum Pairen die kleine Taste in der Vertiefung unter dem Ein/Aus-Taster für ca. 2 Sekunden gedrückt werden. Beim Sensor BADRING befindet sich der Pairing-Taster unter der Batterie-Abdeckung. Der Taster mus viermal hintereinander gedrückt werden.
+To do this, select "Activate pairing (all)." For the TRETAKT switch, the small button in the recess below the power button must be pressed for approximately 2 seconds to pair. For the BADRING sensor, the pairing button is located under the battery cover. The button must be pressed four times in succession.
 
-Jetzt sollten die Komponenten in der Liste angezeigt werden.
+The components should now appear in the list.
 
 ![Z2M](https://github.com/AK-Homberger/Wasserabschalter/blob/main/Bilder/ioBroker-Zigbee2mqtt.png)
 
-Im nächsten Schritt erstellen wir das Script zum Steuern des Akkuschraubers und zur Benachrichtigung.
+In the next step we create the script to control the cordless screwdriver and for notification.
 
-Dazu links im ioBroker-Menü "Scripte" auswählen und ein neues Script mit "+" erzeugen und "JS" für Javascript anklicken. Als Namen "Wasserabschalter" wählen. Dann den folgenden Text einfügen:
+To do this, select "Scripts" in the ioBroker menu on the left, create a new script with "+" and click "JS" for JavaScript. Name it "Water Switch." Then insert the following text:
 
 ```
 var OffTime = 3; // Zeit zum Abdrehen in Sekunden
@@ -284,23 +281,18 @@ on({id: Schalter}, async function (obj) {
 });
 ```
 
-Im Script müssen noch die eindeutigen Bezeichnungen der ZigBee-Komponenten "Schalter" und "Sensor_1/2" angepasst werden. 
-Die richtigen Bezeichnungen können mit der Funktion "Objekt-ID einfügen" oben rechts mit dem Klemmbrett-Symbol herausgefunden und eingefügt werden.
-Auch die "Telefonnummer" muss noch angepasst werden.
+The unique names of the ZigBee components "Switch" and "Sensor_1/2" still need to be adjusted in the script. The correct names can be found and inserted using the "Insert Object ID" function with the clipboard icon in the top right corner. The "Phone Number" also needs to be adjusted.
+Then select "Save." As long as no error messages appear, you can test it. Incidentally, the leak sensor also reacts to wet fingers.
+When triggered, the water should be turned off and an email should be sent. If a Fritzbox is present, the phone with the specified number should also ring. If no Fritzbox is present, please comment out the lines "setState("tr-064.0.states.ring", "Telephone number");".
 
-Dann "Speichern" wählen. Sofern keine Fehlermeldungen ausgegeben werden steht einem Test nichts im Wege. Der Lekagesensor reagiert übrigens auch auf "feuchte" Finger.
-
-Beim Auslösen sollte nun das Wasser abgeschaltet werden und eine E-Mail versendet werden. Sofern eine Fritzbox vorhanden ist sollte auch das Telefon mit der angegebenen Nummer klingeln. Wenn keine Fritzbox vorhanden ist bitte die Zeilen "setState("tr-064.0.states.ring", "Telefonnummer");" auskommentieren.  
-
-
-# Bezugsquellen:
+# Sources:
 
 - Raspberry Pi 4 Kit [Reichelt.de](https://www.reichelt.de/de/de/shop/produkt/das_reichelt_raspberry_pi_4_b_2_gb_all-in-bundle-263082)
 - SONOFF Zigbee 3.0 USB Dongle [Amazon.com](https://www.amazon.de/SONOFF-Gateway-CC2652P-Assistant-Zigbee2MQTT/dp/B09KXTCMSC)
-- Ikea Zigbee-Schalter TRETAKT [Ikea](https://www.ikea.com/de/de/p/tretakt-steckdose-smart-80540349/)
-- Ikea Zigbee-Leckagesensor BADRING [Ikea](https://www.ikea.com/de/de/p/badring-wasserlecksensor-smart-60504352/)
+- Ikea Zigbee switch TRETAKT [Ikea](https://www.ikea.com/de/de/p/tretakt-steckdose-smart-80540349/)
+- Ikea Zigbee leakage sensor BADRING [Ikea](https://www.ikea.com/de/de/p/badring-wasserlecksensor-smart-60504352/)
 - Valex Akkuschrauber [Amazon.com](https://www.amazon.de/Akkuschrauber-Lithium-family-tech-112-Valex-1429400/dp/B077YSQW1Z)
-- Thermohalter (2 Stück) [Alufensterbaenke.de](https://alufensterbaenke.de/thermohalter)
-- Kardangelenk [Amzon.com](https://www.amazon.de/bis-Durchmesser-drehbar-Kardangelenk-RC-Modellflugzeug/dp/B00O9YGCKU)
+- Thermohalter (2 pieces) [Alufensterbaenke.de](https://alufensterbaenke.de/thermohalter)
+- Cardan joint [Amzon.com](https://www.amazon.de/bis-Durchmesser-drehbar-Kardangelenk-RC-Modellflugzeug/dp/B00O9YGCKU)
 - 12 Volt 10 A Trafo [Amazon.com](https://www.amazon.de/Netzteil-Spannungswandler-Netzadapter-Transformator-Stromversorgung-schwarz/dp/B0D9S8N8TT)
-- Krokodilklemmen [Amazon.com](https://www.amazon.de/Multimeter-Messleitungen-Bananenstecker-Krokodilklemme-Messspitzen/dp/B0D39WQZ9M)
+- Clips [Amazon.com](https://www.amazon.de/Multimeter-Messleitungen-Bananenstecker-Krokodilklemme-Messspitzen/dp/B0D39WQZ9M)
