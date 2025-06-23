@@ -199,7 +199,7 @@ and
 ```
 Otherwise, starting via Systemctl didn't work properly (crashes). Other users have also encountered this [error](https://github.com/Koenkk/zigbee2mqtt/issues/21463). 
 
-Now start ther servic and check status. If status OK enable atomatic start after re-boot.
+Now start the service and check status. If status OK enable automatic start after re-boot.
 ```
 sudo systemctl start zigbee2mqtt
 systemctl status zigbee2mqtt.service
