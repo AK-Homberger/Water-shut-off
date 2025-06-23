@@ -12,8 +12,8 @@ A water damage following a burst pipe or other leak is always unpleasant. Especi
 - Adapter plate for handwheel as 3D printing template (customizable) 
 - Cardan joint as axis shift compensation 
 - Alerts via email and phone call (requires Fritzbox) 
-- Control via script in IoBroker on a Raspberry. 
-- ZigBee integration in ioBroker via Zigbee2MQTT. 
+- Control via script in IoBroker on a Raspberry 
+- ZigBee integration in ioBroker via Zigbee2MQTT 
 
 # Hardware
 For the mechanical shut-off of the domestic water, I use a simple 12-volt hand drill with a torque setting. I had initially considered using a gear motor. But I couldn't find the necessary torque clutch anywhere at a reasonable price. It's standard on cordless drills, however. The [list of parts](https://github.com/AK-Homberger/Wasserabschalter/blob/main/README.md#sources) includes a link to [Amazon](https://www.amazon.de/Akkuschrauber-Lithium-family-tech-112-Valex-1429400/dp/B077YSQW1Z). A simple drill for under €20 is sufficient here.
