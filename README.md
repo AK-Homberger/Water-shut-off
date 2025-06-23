@@ -4,7 +4,7 @@ A water damage following a burst pipe or other leak is always unpleasant. Especi
 
 ![Shut-off](https://github.com/AK-Homberger/Wasserabschalter/blob/main/Bilder/Aufmacher1.jpg)
 
-## Summary
+# Summary
 - Domestic water shut-off via cordless screwdriver with torque adjustment 
 - Leakage detection via Ikea ZigBee water detector BADRING 
 - Control of the cordless screwdriver via Ikea ZigBee switch TRETAKT 
