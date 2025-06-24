@@ -9,7 +9,7 @@ A water damage following a burst pipe or other leak is always unpleasant. Especi
 - Leakage detection via Ikea ZigBee water detector BADRING 
 - Control of the cordless screwdriver via Ikea ZigBee switch TRETAKT 
 - Any number of sensors can be integrated 
-- Adapter plate for handwheel as 3D printing template (customizable) 
+- Adapter plate for handwheel as 3D printing template (customisable) 
 - Cardan joint as axis shift compensation 
 - Alerts via email and phone call (requires Fritzbox) 
 - Control via script in IoBroker on a Raspberry 
