@@ -1,4 +1,4 @@
-# Water leakage shut-off with ZigBee and ioBroker
+# Water leakage detection and shut-off with ZigBee and ioBroker
 
 A water damage following a burst pipe or other leak is always unpleasant. Especially when it happens while you're on vacation and no one notices the damage, but the water just keeps flowing. A simple project to shut off the house's water supply when a leak is detected can help. The detection is done with the Ikea BADRING water detector, and the shutdown is done with a 12-volt cordless screwdriver controlled by an Ikea TRETAKT switch. I implemented the logic and alarm system using the ioBroker smart home system and the ZigBee software Zigbee2MQTT. ioBroker also sends notifications via email and calls to your mobile phone. 
 
