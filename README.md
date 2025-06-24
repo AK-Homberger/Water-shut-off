@@ -45,15 +45,16 @@ For reliable operation of the system, at least a Raspberry 4 with 2 GB of RAM is
 ## Installing Raspberry OS and ioBroker
 To prepare the installation, you first need the "Raspberry Pi Imager," which is available for download [here](https://www.raspberrypi.com/software/).
 
-As the operating system for ioBroker, I recommend the OSLite version for the Raspberry Pi without a graphical desktop. ioBroker and Zigbee2mqtt are operated via a browser. However, other versions of the operating system will also work. 
+As the operating system for ioBroker, I recommend the OSLite version for the Raspberry Pi without a graphical desktop. ioBroker and Zigbee2mqtt are operated via a browser. However, other versions of the operating system will also work.
 
-For easy replication, I've listed all the commands here. They can be copied and pasted into the Raspberry Terminal. 
+For easy replication, I've listed all the commands here. They can be copied and pasted into the Raspberry Terminal.
 
 Before installing the software, the [Sonoff ZigBee-Adapter](https://sonoff.tech/product/gateway-and-sensors/sonoff-zigbee-3-0-usb-dongle-plus-p/) should be plugged into a USB port.
 
 ![Sonoff-Dongle](https://github.com/AK-Homberger/Wasserabschalter/blob/main/Bilder/Sonoff-ZigBee-Adapter.jpg)
 
 Important: There are two versions of the ZigBee adapter, SBDongle-P and ZBDongle-E, with different chipsets. For this project, the "P" dongle with the "CC2652P" chipset is required. The other version should also work. However, some configuration settings will need to be changed.
+
 For a better wireless connection, it has proven useful not to plug the dongle directly into the Raspberry, but to place it some distance away from the Raspberry using a USB extension cable.
 
 ## Installation
