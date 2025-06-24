@@ -215,7 +215,7 @@ Then switch to the Zigbee2MQTT tab and add the [TRETAKT](https://www.zigbee2mqtt
 ![Tretakt](https://www.zigbee2mqtt.io/images/devices/E22x4.png)
 ![Badring](https://www.zigbee2mqtt.io/images/devices/E2202.png)
 
-To do this, select "Activate pairing (all)." For the TRETAKT switch, the small button in the recess below the power button must be pressed for approximately 2 seconds to pair. For the BADRING sensor, the pairing button is located under the battery cover. The button must be pressed four times in succession.
+To do this, select "Permit join (all)." For the TRETAKT switch, the small button in the recess below the power button must be pressed for approximately 2 seconds to pair. For the BADRING sensor, the pairing button is located under the battery cover. The button must be pressed four times in succession.
 
 The components should now appear in the list.
 
