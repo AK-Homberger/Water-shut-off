@@ -29,7 +29,7 @@ The adapter plate and mounting ring are available in the SCAD directory as OpenS
 ![Adapterplate](https://github.com/AK-Homberger/Wasserabschalter/blob/main/SCAD/Adapterplatte.stl) / ![Ring](https://github.com/AK-Homberger/Wasserabschalter/blob/main/SCAD/Befestigungsring.stl)
 
 ### Important! Non-rising spindle
-The shutoff only works with valves with a ["non-rising"]([https://www.gep24.de/installation/ventile/schraegsitzventil/nicht-steigende-spindel/](https://www.youtube.com/watch?v=0fCbAA_am2k) spindel/stem. With valves with a "rising" spindle, the handwheel shaft rotates into the valve when shutting off. This would cause the distance to the drill to steadily increase until there is no longer any connection. Therefore, check beforehand whether a valve with a "non-rising" spindle is installed. The valves/upper parts can also be easily replaced. Your local plumber can help with this if necessary.
+The shutoff only works with valves with a ["non-rising"](https://www.youtube.com/watch?v=0fCbAA_am2k) spindel/stem. With valves with a "rising" spindle, the handwheel shaft rotates into the valve when shutting off. This would cause the distance to the drill to steadily increase until there is no longer any connection. Therefore, check beforehand whether a valve with a "non-rising" spindle is installed. The valves/upper parts can also be easily replaced. Your local plumber can help with this if necessary.
 
 To easily mount the cordless screwdriver, I use so-called [Thermohalter](https://alufensterbaenke.de/thermohalter) for window sills.
 
