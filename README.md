@@ -26,7 +26,7 @@ The drill is connected to the water valve's handwheel via a universal joint and 
 
 The adapter plate and mounting ring are available in the SCAD directory as OpenSCAD and STL files. The adapter plate should fit most handwheels. However, if necessary, the plate can easily be adapted to the current handwheel using [OpenSCAD](https://openscad.org/). 
 
-![Adapterplate](https://github.com/AK-Homberger/Wasserabschalter/blob/main/SCAD/Adapterplatte.stl) / ![Ring](https://github.com/AK-Homberger/Wasserabschalter/blob/main/SCAD/Befestigungsring.stl)
+![Adapter plate](https://github.com/AK-Homberger/Wasserabschalter/blob/main/SCAD/Adapterplatte.stl) / ![Ring](https://github.com/AK-Homberger/Wasserabschalter/blob/main/SCAD/Befestigungsring.stl)
 
 ### Important! Non-rising spindle
 The shut-off only works with valves with a ["non-rising"](https://www.youtube.com/watch?v=0fCbAA_am2k) spindel/stem. With valves with a "rising" spindle, the handwheel shaft rotates into the valve when shutting off. This would cause the distance to the drill to steadily increase until there is no longer any connection. Therefore, check beforehand whether a valve with a "non-rising" spindle is installed. The valves/upper parts can also be easily replaced. Your local plumber can help with this if necessary.
