@@ -24,7 +24,7 @@ The drill is connected to the water valve's handwheel via a universal joint and 
 
 ![Adapter](https://github.com/AK-Homberger/Wasserabschalter/blob/main/Bilder/Adapter1.jpg)
 
-The adapter plate and mounting ring are available in the SCAD directory as OpenSCAD and STL files. The adapter plate should fit most handwheels. However, if necessary, the plate can easily be adapted to the current handwheel using [OpenSCAD](https://openscad.org/). 
+The adapter plate and mounting ring are available in the SCAD directory as OpenSCAD and STL files. The adapter plate should fit for most handwheels. However, if necessary, the plate can easily be adapted to the current handwheel using [OpenSCAD](https://openscad.org/). 
 
 ![Adapter plate](https://github.com/AK-Homberger/Wasserabschalter/blob/main/SCAD/Adapterplatte.stl) / ![Ring](https://github.com/AK-Homberger/Wasserabschalter/blob/main/SCAD/Befestigungsring.stl)
 
