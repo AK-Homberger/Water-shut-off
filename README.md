@@ -292,7 +292,7 @@ When triggered, the water should be turned off and an email should be sent. If a
 - SONOFF Zigbee 3.0 USB Dongle [Amazon.com](https://www.amazon.de/SONOFF-Gateway-CC2652P-Assistant-Zigbee2MQTT/dp/B09KXTCMSC)
 - Ikea Zigbee switch TRETAKT [Ikea](https://www.ikea.com/de/de/p/tretakt-steckdose-smart-80540349/)
 - Ikea Zigbee leakage sensor BADRING [Ikea](https://www.ikea.com/de/de/p/badring-wasserlecksensor-smart-60504352/)
-- Cordless crewdriver [Amazon.com](https://www.amazon.de/Akkuschrauber-Lithium-family-tech-112-Valex-1429400/dp/B077YSQW1Z) [Alternative](https://www.amazon.de/Akkuschrauber-Bohrschrauber-Akkubohrer-Bohrfutter-Drehmomenteinstellung/dp/B0DP2GMW69)
+- Cordless screwdriver [Amazon.com 1](https://www.amazon.de/Akkuschrauber-Lithium-family-tech-112-Valex-1429400/dp/B077YSQW1Z) [Amazon.com 2](https://www.amazon.de/Akkuschrauber-Bohrschrauber-Akkubohrer-Bohrfutter-Drehmomenteinstellung/dp/B0DP2GMW69)
 - Thermohalter (2 pieces) [Alufensterbaenke.de](https://alufensterbaenke.de/thermohalter)
 - Cardan joint [Amzon.com](https://www.amazon.de/bis-Durchmesser-drehbar-Kardangelenk-RC-Modellflugzeug/dp/B00O9YGCKU)
 - 12 Volt 10 A Trafo [Amazon.com](https://www.amazon.de/Netzteil-Spannungswandler-Netzadapter-Transformator-Stromversorgung-schwarz/dp/B0D9S8N8TT)
