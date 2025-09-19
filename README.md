@@ -67,7 +67,7 @@ For a better wireless connection, it has proven useful not to plug the dongle di
 - Log in. Either locally with keyboard and screen or via SSH. Find out the IP address via the router! I recommend using [Putty](https://www.putty.org/) as an SSH client.
 
 Update Raspberry OS first:
-```
+```bash
 sudo apt update
 sudo apt upgrade
 
