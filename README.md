@@ -115,7 +115,7 @@ cd /opt/zigbee2mqtt
 pnpm i --frozen-lockfile
 ```
 
-Adjust the "![configuration.yaml](https://github.com/AK-Homberger/Water-shut-off/blob/main/Files/configuration.yaml)" file: 
+Adjust the "configuration.yaml" file: 
 
 ```
 nano /opt/zigbee2mqtt/data/configuration.yaml
