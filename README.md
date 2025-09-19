@@ -225,7 +225,7 @@ In the next step we create the script to control the cordless screwdriver and fo
 
 To do this, select "Scripts" in the ioBroker menu on the left, create a new script with "+" and click "JS" for JavaScript. Name it "Water Switch." Then insert the following text:
 
-```
+```javascript
 var OffTime = 3; // Zeit zum Abdrehen in Sekunden
 
 var Schalter = "zigbee2mqtt.0.0x881a14fffe2f0931.state";
