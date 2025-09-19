@@ -121,7 +121,7 @@ Adjust the "configuration.yaml" file:
 nano /opt/zigbee2mqtt/data/configuration.yaml
 ```
 Insert the following text: 
-```
+```yaml
 homeassistant:
   enabled: false
 frontend:
