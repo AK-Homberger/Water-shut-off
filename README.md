@@ -64,7 +64,7 @@ For a better wireless connection, it has proven useful not to plug the dongle di
 - Set hostname and password
 - Select SD card and write image
 - Insert SD card into Raspberry and start
-- Log in. Either locally with keyboard and screen or via SSH. Find out the IP address via the router! I recommend using [Putty](https://www.putty.org/) as an SSH client.
+- Log in. Either locally with keyboard and screen or via SSH. Find out the IP address via the router! I recommend using [Putty]([https://putty.org/index.html]) as an SSH client.
 
 Update Raspberry OS first:
 ```
