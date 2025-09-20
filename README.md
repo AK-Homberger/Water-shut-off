@@ -169,7 +169,7 @@ Start the editor and create the file "zigbee2mqtt.service" with the following co
 sudo nano /etc/systemd/system/zigbee2mqtt.service
 ```
 Insert the following text: 
-```
+```service
 [Unit]
 Description=zigbee2mqtt
 After=network.target
